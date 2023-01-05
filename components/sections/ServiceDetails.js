@@ -2,6 +2,33 @@ import Link from 'next/link';
 import React from 'react';
 import Accordion from '../elements/Accordion';
 
+const serviceListData = [
+	{
+		title: "Digital Marketing",
+		linkurl: "page-about"	
+	},
+	{
+		title: "Designing",
+		linkurl: "#"	
+	},
+	{
+		title: "Product Development",
+		linkurl: "#"	
+	},
+	{
+		title: "Data Analysis",
+		linkurl: "#"	
+	},
+	{
+		title: "Security System",
+		linkurl: "#"	
+	},
+	{
+		title: "Data Visualization",
+		linkurl: "#"	
+	},
+];
+
 const Serviceone = ({ alternate }) => {
 	return (
 		<>
@@ -16,12 +43,9 @@ const Serviceone = ({ alternate }) => {
 										data-wow-delay="0.1s" data-wow-duration="1200m">
 										<div className="service-list">
 										<ul>
-										<li><Link href="page-service-details" className="current"><i className="fas fa-angle-right"></i><span>Digital Marketing</span></Link></li>
-										<li><Link href="page-service-details"><i className="fas fa-angle-right"></i><span>UI/UX Designing</span></Link></li>
-										<li><Link href="page-service-details"><i className="fas fa-angle-right"></i><span>Product Development</span></Link></li>
-										<li><Link href="page-service-details"><i className="fas fa-angle-right"></i><span>Data Analysis</span></Link></li>
-										<li><Link href="page-service-details"><i className="fas fa-angle-right"></i><span>Security System</span></Link></li>
-										<li><Link href="page-service-details"><i className="fas fa-angle-right"></i><span>Data Visualization</span></Link></li>
+											{serviceListData.map((eachitem) => (
+												<li><Link href={eachitem.linkurl}><i className="fas fa-angle-right"></i><span>{eachitem.title}</span></Link></li>
+											))}
 										</ul>
 										</div>
 									</div>
