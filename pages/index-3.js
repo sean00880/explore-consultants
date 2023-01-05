@@ -22,51 +22,21 @@ const Home3 = () => {
     return (
         <>
             <Layout HeaderStyle="three">
-                {/* Banner Section Two*/}
                 <BannerTwo />
-                {/*END Banner Section Two */}
-                {/* Clients Section   */}
                 <ClientOne addClass={"border-bottom"} />
-                {/*End Clients Section */}
-                {/* Services Section Three */}
                 <ServiceThree />
-                {/* End Services Section Three */}
-                {/* About Section Five */}
                 <AboutFive />
-                {/*Emd About Section Five */}
-                {/* Video Section */}
                 <VideoOne />
-                {/*End Video Section */}
-                {/* Offer Section Three */}
                 <OfferThree />
-                {/* End Offer Section */}
-                {/* Project Section Three*/}
                 <ProjectThree />
-                {/*End Project Section Three*/}
-                {/* Why Choose Us Two*/}
                 <WhyChooseTwo />
-                {/*Emd Why Choose Us */}
-                {/* Call To Action */}
                 <CtaOne addClass={"alternate"} />
-                {/*End Call To Action */}
-                {/* Testimonial Section Two */}
                 <TestimonialTwo />
-                {/* End Testimonial Section */}
-                {/* Contact Section */}
                 <ContactTwo />
-                {/*End FAQ Section */}
-                {/* Features Section Four */}
                 <FeaturesFour />
-                {/* Features Section Four */}
-                {/* News Section */}
                 <BlogOne addClass={"alternate"} />
-                {/*End News Section */}
-                {/* Locations Section */}
                 <LocationTwo />
-                {/* End Locations Section */}
-                {/* Call To Action Four */}
                 <CtaFour />
-                {/*End Call To Action Four */}
 
             </Layout>
         </>

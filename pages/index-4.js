@@ -27,51 +27,21 @@ const Home4 = () => {
     return (
         <>
             <Layout HeaderStyle="four">
-                {/* Banner Section Three*/}
                 <BannerFour />
-                {/*END Banner Section Three */}
-                {/* Call To Action Two */}
                 <CtaTwo />
-                {/*End Call To Action Two */}
-                {/* Services Section Four */}
                 <ServiceFour />
-                {/* End Services Section Four*/}
-                {/* About Section Six*/}
                 <AboutSix />
-                {/*Emd About Section Six*/}
-                {/* Project Section */}
                 <ProjectOne addClass={"style-two"} />
-                {/*End Project Section */}
-                {/* Work Section */}
                 <WorkSection />
-                {/* End Work Section */}
-                {/* Testimonial Section Three */}
                 <TestimonialThree />
-                {/* End Testimonial Section Three */}
-                {/* Features Section Five */}
                 <FeaturesFive />
-                {/* End Features Section Five */}
-                {/* Why Choose Us Three*/}
                 <WhyChooseThree />
-                {/*Emd Why Choose Us Three */}
-                {/* Industries Section */}
                 <Industries />
-                {/* End Industries Section */}
-                {/* Team Section */}
                 <TeamTwo />
-                {/* End Team Section */}
-                {/* Clients Section   */}
                 <ClientOne addClass={"alternate"} />
-                {/*End Clients Section */}
-                {/* News Section Two */}
                 <BlogTwo />
-                {/*End News Section Two */}
-                {/* Contact Section Three */}
                 <ContactThree />
-                {/*End Contact Section Three */}
-                {/* Call To Action Five */}
                 <CtaFive />
-                {/*End Call To Action Five */}
 
             </Layout>
         </>
