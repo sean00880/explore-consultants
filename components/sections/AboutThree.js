@@ -35,10 +35,11 @@ const AboutThree = () => {
                                             </div>
                                             <div className="skill-bar">
                                                 <div className="bar-inner">
-                                                    <div className="bar progress-line" data-width={77}>
+                                                    <div className="bar progress-line" data-width={77} style={{width: `77%`}} >
                                                         <div className="skill-percentage">
                                                             <div className="count-box">
-                                                                <span className="count-text" data-speed={3000} data-stop={77}>0</span>%</div>
+                                                                <span className="count-text" data-speed={3000} data-stop={77}>77</span>%
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
