@@ -19,7 +19,7 @@ const Industries = () => {
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="image-box wow fadeIn">
-                                <figure className="image"><img src="/images/resource/industries.jpg" alt="Oitech" /></figure>
+                                <figure className="image"><img src="/images/resource/industries.jpg" alt='Oitech' /></figure>
                             </div>
                         </div>
                     </div>

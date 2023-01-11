@@ -11,7 +11,7 @@ const Serviceone = ({ alternate }) => {
 					<div className="row">
 						<div className="col-xl-12">
 							<div className="project-details__top">
-								<div className="project-details__img"> <img src="/images/resource/project-details.jpg" alt="Oitech" /> </div>
+								<div className="project-details__img"> <img src="/images/resource/project-details.jpg" alt='Oitech' /> </div>
 							</div>
 						</div>
 					</div>

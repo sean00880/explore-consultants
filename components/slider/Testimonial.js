@@ -74,7 +74,7 @@ const Testimonial = () => {
                                 <div className="text">Lorem ipsum is simply free text dolor not sit amet, notted adipisicing elit sed do eiusmod incididunt labore et dolore text.</div>
                             </div>
                             <div className="info-box">
-                                <div className="thumb"><img src="/images/resource/testi-thumb-4.jpg" alt="Oitech" /></div>
+                                <div className="thumb"><img src="/images/resource/testi-thumb-4.jpg" alt='Oitech' /></div>
                                 <h6 className="name">Sarah Albert</h6>
                                 <span className="designation">Designer</span>
                             </div>

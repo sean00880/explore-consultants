@@ -18,7 +18,7 @@ const AboutFour = () => {
                                 <div className="btn-box d-flex">
                                     <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     <div className="founder-info">
-                                        <div className="thumb"><img src="/images/resource/thumb-1.jpg" alt="Oitech" /></div>
+                                        <div className="thumb"><img src="/images/resource/thumb-1.jpg" alt='Oitech' /></div>
                                         <h5 className="name">Kevin Martin</h5>
                                         <span className="designation">Co Founder</span>
                                     </div>
@@ -28,9 +28,9 @@ const AboutFour = () => {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <span className="float-text">oitech</span>
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-7.jpg" alt="Oitech" /></figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-8.jpg" alt="Oitech" /></figure>
-                                <div className="icon-box"><img src="/images/resource/icon-logo-2.png" alt="Oitech" /></div>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-7.jpg" alt='Oitech' /></figure>
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-8.jpg" alt='Oitech' /></figure>
+                                <div className="icon-box"><img src="/images/resource/icon-logo-2.png" alt='Oitech' /></div>
                             </div>
                         </div>
                     </div>

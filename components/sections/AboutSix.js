@@ -39,7 +39,7 @@ const AboutSix = () => {
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <div className="image-box">
-                                    <figure className="image wow fadeIn"><img src="/images/resource/men.png" alt="Oitech" /></figure>
+                                    <figure className="image wow fadeIn"><img src="/images/resource/men.png" alt='Oitech' /></figure>
                                     <div className="completed-projects">
                                         <strong>870+</strong>
                                         <div className="text">PROJECT DONE</div>

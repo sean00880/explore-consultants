@@ -13,7 +13,7 @@ const VideoOne = () => {
                             <div className="text">Web designing in a powerful way of just not an only professions, however, in a passion <br />for our Company. We have to a tendency to believe</div>
                         </div>
                         <div className="video-box wow fadeInUp">
-                            <figure className="image"><img src="/images/resource/video-img.jpg" alt="Oitech" /></figure>
+                            <figure className="image"><img src="/images/resource/video-img.jpg" alt='Oitech' /></figure>
                             <div className="content">
                                 <a className="play-btn lightbox-image" onClick={() => setOpen(true)}><i className="icon fa fa-play" /></a>
 

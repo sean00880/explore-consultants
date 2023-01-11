@@ -56,14 +56,14 @@ const ContactFour = () => {
                                     <h3 className="title">Best IT Technology <br />Services you can Trust</h3>
                                 </div>
                                 <div className="our-values">
-                                    <figure className="image"><img src="/images/resource/our-value.jpg" alt="Oitech" /></figure>
+                                    <figure className="image"><img src="/images/resource/our-value.jpg" alt='Oitech' /></figure>
                                     <div className="content">
                                         <h5 className="title">Manage Tech Services</h5>
                                         <div className="text">Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking</div>
                                     </div>
                                 </div>
                                 <div className="info-box">
-                                    <figure className="image"><img src="/images/resource/our-value-2.jpg" alt="Oitech" /></figure>
+                                    <figure className="image"><img src="/images/resource/our-value-2.jpg" alt='Oitech' /></figure>
                                     {/* Counter block*/}
                                     <div className="counter-block-two">
                                         <div className="count-box">

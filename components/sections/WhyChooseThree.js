@@ -30,7 +30,7 @@ const WhyChooseThree = () => {
                         {/* Image Column */}
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="image-box wow fadeInRight">
-                                <figure className="image overlay-anim"><img src="/images/resource/why-us-4.jpg" alt="Oitech" /></figure>
+                                <figure className="image overlay-anim"><img src="/images/resource/why-us-4.jpg" alt='Oitech' /></figure>
                             </div>
                         </div>
                     </div>

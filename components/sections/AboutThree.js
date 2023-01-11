@@ -52,8 +52,8 @@ const AboutThree = () => {
                         </div>
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-5.jpg" alt="Oitech" /></figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-6.jpg" alt="Oitech" /></figure>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-5.jpg" alt='Oitech' /></figure>
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-6.jpg" alt='Oitech' /></figure>
                             </div>
                         </div>
                     </div>

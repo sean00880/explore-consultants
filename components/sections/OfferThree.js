@@ -35,7 +35,7 @@ const OfferThree = () => {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/benefits.jpg" alt="Oitech" /></figure>
+                                    <figure className="image"><img src="/images/resource/benefits.jpg" alt='Oitech' /></figure>
                                     <div className="video-box">
                                         <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /></a>
                                     </div>

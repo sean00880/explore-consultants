@@ -37,7 +37,7 @@ const Pricing = () => {
                                 {/* Pricing Block */}
                                 <div className="pricing-block">
                                     <div className="inner-box">
-                                        <figure className="image"><img src="/images/resource/pricing-1.png" alt="Oitech" /></figure>
+                                        <figure className="image"><img src="/images/resource/pricing-1.png" alt='Oitech' /></figure>
                                         <div className="price-box">
                                             <h4 className="price"><sup>$</sup>49</h4>
                                             <span className="validaty">/ Monthly</span>
@@ -57,7 +57,7 @@ const Pricing = () => {
                                 {/* Pricing Block */}
                                 <div className="pricing-block style-two pull-left">
                                     <div className="inner-box">
-                                        <figure className="image"><img src="/images/resource/pricing-2.png" alt="Oitech" /></figure>
+                                        <figure className="image"><img src="/images/resource/pricing-2.png" alt='Oitech' /></figure>
                                         <div className="price-box">
                                             <h4 className="price"><sup>$</sup>69</h4>
                                             <span className="validaty">/ Monthly</span>

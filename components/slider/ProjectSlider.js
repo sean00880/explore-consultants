@@ -78,7 +78,7 @@ const ProjectSlider = () => {
                             <div className="image-box">
                                 <figure className="image">
                                     <Link href="images/resource/project-1.jpg" className="lightbox-image">
-                                        <img src={`/images/resource/${item.img}`} alt="Oitech" />
+                                        <img src={`/images/resource/${item.img}`} alt='Oitech' />
                                     </Link>
                                 </figure>
                                 <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>

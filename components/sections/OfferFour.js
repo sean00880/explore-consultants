@@ -39,7 +39,7 @@ const OfferFour = () => {
                             <div className="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column wow fadeInLeft">
                                     <div className="image-box">
-                                        <figure className="image"><img src="/images/resource/benefits-2.jpg" alt="Oitech" /></figure>
+                                        <figure className="image"><img src="/images/resource/benefits-2.jpg" alt='Oitech' /></figure>
                                         <div className="caption">Execute your Ideas from start</div>
                                     </div>
                                 </div>
