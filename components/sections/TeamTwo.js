@@ -26,7 +26,7 @@ const TeamTwo = () => {
                                     </div>
                                 </div>
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-4.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-4.jpg" alt="Oitech" /></Link></figure>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const TeamTwo = () => {
                                     </div>
                                 </div>
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-5.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-5.jpg" alt="Oitech" /></Link></figure>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const TeamTwo = () => {
                                     </div>
                                 </div>
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-6.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-6.jpg" alt="Oitech" /></Link></figure>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const TeamTwo = () => {
                                     </div>
                                 </div>
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-7.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-team-details"><img src="/images/resource/team-7.jpg" alt="Oitech" /></Link></figure>
                                 </div>
                             </div>
                         </div>

@@ -41,7 +41,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="/images/logo-2.png" alt title="Tronis" /></Link></div>
+                            <div className="logo"><Link href="/"><img src="/images/logo-2.png" alt title="Oitech" /></Link></div>
                         </div>
                         {/*Nav Box*/}
                         <div className="nav-outer">

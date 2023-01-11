@@ -46,7 +46,7 @@ const WorkSection = () => {
                                     </div>
                                     {/* Image Column */}
                                     <div className="image-column col-xl-5 col-lg-6 col-md-12">
-                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt /></figure>
+                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt="Oitech" /></figure>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const WorkSection = () => {
                                     </div>
                                     {/* Image Column */}
                                     <div className="image-column col-xl-5 col-lg-6 col-md-12">
-                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt /></figure>
+                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt="Oitech" /></figure>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ const WorkSection = () => {
                                     </div>
                                     {/* Image Column */}
                                     <div className="image-column col-xl-5 col-lg-6 col-md-12">
-                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt /></figure>
+                                        <figure className="image overlay-anim"><img src="/images/resource/work-1.jpg" alt="Oitech" /></figure>
                                     </div>
                                 </div>
                             </div>

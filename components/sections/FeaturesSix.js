@@ -18,7 +18,7 @@ const FeaturesSix = () => {
                             {/* Feature Block Six */}
                             <div className="feature-block-six col-lg-4 hide-md ">
                                 <div className="inner-box ">
-                                    <figure className="image"><img src="/images/resource/feature-bg-6.jpg" alt /></figure>
+                                    <figure className="image"><img src="/images/resource/feature-bg-6.jpg" alt="Oitech" /></figure>
                                 </div>
                             </div>
                             {/* Feature Block Six */}

@@ -10,7 +10,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-1.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-1.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-010-startup" /></div>
                                 </div>
                                 <div className="content-box">
@@ -23,7 +23,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-2.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-2.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-002-graph" /></div>
                                 </div>
                                 <div className="content-box">
@@ -36,7 +36,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-3.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-3.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-048-coin" /></div>
                                 </div>
                                 <div className="content-box">
@@ -49,7 +49,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-2.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-2.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-010-startup" /></div>
                                 </div>
                                 <div className="content-box">
@@ -62,7 +62,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-3.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-3.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-048-coin" /></div>
                                 </div>
                                 <div className="content-box">
@@ -75,7 +75,7 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-1.jpg" alt /></Link></figure>
+                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-1.jpg" alt="Oitech" /></Link></figure>
                                     <div className="icon-box"><i className="icon flaticon-business-002-graph" /></div>
                                 </div>
                                 <div className="content-box">

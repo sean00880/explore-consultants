@@ -29,10 +29,10 @@ const OfferTwo = () => {
                             <div className="image-column col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column">
                                     <div className="image-box">
-                                        <figure className="image"><img src="/images/resource/image-6.jpg" alt /></figure>
+                                        <figure className="image"><img src="/images/resource/image-6.jpg" alt="Oitech" /></figure>
                                         <div className="video-box wow fadeIn">
                                             <h4 className="title">Watch our video</h4>
-                                            <img className="arrow-icon" src="/images/icons/icon-arrow.png" alt />
+                                            <img className="arrow-icon" src="/images/icons/icon-arrow.png" alt="Oitech" />
                                             <a className="play-btn lightbox-image" onClick={() => setOpen(true)}><i className="icon fa fa-play" /></a>
                                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
                                         </div>

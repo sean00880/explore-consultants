@@ -10,7 +10,7 @@ const FeaturesFive = () => {
                         {/* Feature Block Five */}
                         <div className="feature-block-five col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box ">
-                                <figure className="bg-image"><img src="/images/resource/feature-bg-3.jpg" alt /></figure>
+                                <figure className="bg-image"><img src="/images/resource/feature-bg-3.jpg" alt="Oitech" /></figure>
                                 <h4 className="title"><Link href="/page-about">Product <br />Designing</Link></h4>
                                 <div className="text">Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
                                 <span className="count">01</span>
@@ -19,7 +19,7 @@ const FeaturesFive = () => {
                         {/* Feature Block Five */}
                         <div className="feature-block-five col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box ">
-                                <figure className="bg-image"><img src="/images/resource/feature-bg-4.jpg" alt /></figure>
+                                <figure className="bg-image"><img src="/images/resource/feature-bg-4.jpg" alt="Oitech" /></figure>
                                 <h4 className="title"><Link href="/page-about">Custom <br />Solutions</Link></h4>
                                 <div className="text">Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
                                 <span className="count">02</span>
@@ -28,7 +28,7 @@ const FeaturesFive = () => {
                         {/* Feature Block Five */}
                         <div className="feature-block-five col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box ">
-                                <figure className="bg-image"><img src="/images/resource/feature-bg-5.jpg" alt /></figure>
+                                <figure className="bg-image"><img src="/images/resource/feature-bg-5.jpg" alt="Oitech" /></figure>
                                 <h4 className="title"><Link href="/page-about">Tech <br />Outsourc</Link></h4>
                                 <div className="text">Neque porro quisquam est, qui dolorem ipsum quia dolor.</div>
                                 <span className="count">03</span>

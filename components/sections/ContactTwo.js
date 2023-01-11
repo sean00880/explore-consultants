@@ -14,7 +14,7 @@ const ContactTwo = () => {
                                     <div className="sub-title">Get to know</div>
                                     <h3>Keep your Vision to Our Projects</h3>
                                 </div>
-                                <figure className="image overlay-anim"><img src="/images/resource/contact.jpg" alt /></figure>
+                                <figure className="image overlay-anim"><img src="/images/resource/contact.jpg" alt="Oitech" /></figure>
                                 <div className="info-box">
                                     <span className="icon fa fa-check" />
                                     <h5 className="title">Cloud Based Services</h5>

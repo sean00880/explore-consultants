@@ -11,7 +11,7 @@ const ContactOne = () => {
                         <div className="image-column col-lg-6 col-md-12 col-sm-12 order-4">
                             <div className="inner-column">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/images/resource/contact.jpg" alt /></figure>
+                                    <figure className="image"><img src="/images/resource/contact.jpg" alt="Oitech" /></figure>
                                     <div className="info-box">
                                         <span className="icon flaticon-business-035-helpline" />
                                         <span className="sub-title">Calll us and book now</span>

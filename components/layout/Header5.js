@@ -8,19 +8,15 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
     return (
         <>
             <header className={`main-header header-style-five ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
-                {/* Header Lower */}
                 <div className="header-lower">
-                    {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="/images/logo.png" alt title="Tronis" /></Link></div>
+                            <div className="logo"><Link href="/"><img src="/images/logo.png" alt title="Oitech" /></Link></div>
                         </div>
-                        {/*Nav Box*/}
                         <div className="nav-outer">
                             <nav className="nav main-menu">
                                 <NavLinks extraClassName="header5" />
                             </nav>
-                            {/* Main Menu End*/}
                             <div className="outer-box">
                                 <div className="ui-btn-outer">
                                     <button className="ui-btn ui-btn search-btn" onClick={handleToggle}>
@@ -33,17 +29,13 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                     <small>Call Anytime</small><br /> + 88 ( 9800 ) 6802
                                 </Link>
                                 <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">get solution</span></Link>
-                                {/* Mobile Nav toggler */}
                                 <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* End Header Lower */}
-                {/* Mobile Menu  */}
                 <div className="mobile-menu">
                     <div className="menu-backdrop" onClick={handleRemove} />
-                    {/*Here Menu Will Come Automatically ViLink Javascript / Same Menu as in Header*/}
                     <nav className="menu-box">
                         <div className="upper-box">
                             <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt title /></Link></div>
@@ -62,7 +54,6 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 </div>
                             </li>
                             <li>
-                                {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
@@ -70,7 +61,6 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 </div>
                             </li>
                             <li>
-                                {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
                                     <span className="title">Send Email</span>
@@ -85,8 +75,6 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <li><Link href="/#"><i className="fab fa-instagram" /></Link></li>
                         </ul>
                     </nav>
-                </div>{/* End Mobile Menu */}
-                {/* Header Search */}
                 <div className="search-popup">
                     <span className="search-back-drop" />
                     <button className="close-search" onClick={handleToggle}><span className="fa fa-times" /></button>
@@ -99,18 +87,13 @@ const Header5 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         </form>
                     </div>
                 </div>
-                {/* End Header Search */}
-                {/* Sticky Header  */}
                 <div className={`sticky-header ${scroll ? "fixed-header animated slideInDown" : ""}`}>
                     <div className="auto-container">
                         <div className="inner-container">
-                            {/*Logo*/}
                             <div className="logo">
                                 <Link href="/" title><img src="/images/logo-2.png" alt title /></Link>
                             </div>
-                            {/*Right Col*/}
                             <div className="nav-outer">
-                                {/* Main Menu */}
                                 <nav className="main-menu">
                                     <div className="navbar-collapse show collapse clearfix">
                                         <ul className="navigation clearfix">

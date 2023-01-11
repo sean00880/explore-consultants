@@ -26,7 +26,7 @@ const AboutFive = () => {
                                 <div className="btn-box d-flex">
                                     <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     <div className="founder-info">
-                                        <div className="thumb"><img src="/images/resource/thumb-1.jpg" alt /></div>
+                                        <div className="thumb"><img src="/images/resource/thumb-1.jpg" alt="Oitech" /></div>
                                         <h5 className="name">Kevin Martin</h5>
                                         <span className="designation">Co Founder</span>
                                     </div>
@@ -36,9 +36,9 @@ const AboutFive = () => {
                         {/* Image Column */}
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column">
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-9.jpg" alt />
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-9.jpg" alt="Oitech" />
                                 </figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-10.jpg" alt />
+                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-10.jpg" alt="Oitech" />
                                 </figure>
                             </div>
                         </div>

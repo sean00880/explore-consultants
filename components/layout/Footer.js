@@ -14,7 +14,7 @@ const Footer = () => {
                             {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                                 <div className="footer-widget about-widget">
-                                    <div className="logo"><a href="index.html"><img src="/images/logo.png" alt /></a></div>
+                                    <div className="logo"><a href="index.html"><img src="/images/logo.png" alt="Oitech" /></a></div>
                                     <div className="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
                                     <ul className="social-icon-two">
                                         <li><a href="#"><i className="fab fa-twitter" /></a></li>
@@ -57,22 +57,22 @@ const Footer = () => {
                                     <div className="widget-content">
                                         <div className="outer clearfix">
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-1.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-1.jpg" alt="Oitech" /></a>
                                             </figure>
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-2.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-2.jpg" alt="Oitech" /></a>
                                             </figure>
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-3.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-3.jpg" alt="Oitech" /></a>
                                             </figure>
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-4.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-4.jpg" alt="Oitech" /></a>
                                             </figure>
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-5.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-5.jpg" alt="Oitech" /></a>
                                             </figure>
                                             <figure className="image">
-                                                <a href="#"><img src="/images/resource/project-thumb-6.jpg" alt /></a>
+                                                <a href="#"><img src="/images/resource/project-thumb-6.jpg" alt="Oitech" /></a>
                                             </figure>
                                         </div>
                                     </div>

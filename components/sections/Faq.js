@@ -20,7 +20,7 @@ const Faq = () => {
                         {/* image Column */}
                         <div className="image-column col-xl-6 col-lg-12 col-md-12">
                             <div className="inner-column">
-                                <figure className="image"><img src="/images/resource/faq.jpg" alt /></figure>
+                                <figure className="image"><img src="/images/resource/faq.jpg" alt="Oitech" /></figure>
                                 <div className="info-box">
                                     <div className="inner">
                                         <span className="icon flaticon-business-063-diamond" />

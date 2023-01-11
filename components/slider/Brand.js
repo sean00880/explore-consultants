@@ -68,7 +68,7 @@ const Brand = () => {
             >
                 {data.map((item, i) => (
                     <SwiperSlide>
-                        <li className="slide-item"> <a href="#"><img src="/images/resource/client.png" alt /></a> </li>
+                        <li className="slide-item"> <a href="#"><img src="/images/resource/client.png" alt="Oitech" /></a> </li>
                     </SwiperSlide>
                 ))}
             </Swiper>
