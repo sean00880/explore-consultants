@@ -77,13 +77,13 @@ const ProjectSlider3 = () => {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <a href="images/resource/project-8.jpg" className="lightbox-image">
+                                    <Link href="images/resource/project-8.jpg" className="lightbox-image">
                                         <img src={`/images/resource/${item.img}`} alt />
-                                    </a>
+                                    </Link>
                                 </figure>
                                 <div className="overlay-box">
                                     <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
-                                    <h4 className="title"><a href="page-project-details.html">Tech Solutions</a></h4>
+                                    <h4 className="title"><Link href="/page-project-details">Tech Solutions</Link></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>

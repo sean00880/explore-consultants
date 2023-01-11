@@ -27,13 +27,13 @@ const NavLinks = ({ extraClassName }) => {
                 <ul>
                     <li className="dropdown"><Link href="/page-projects">Projects</Link>
                         <ul>
-                            <li><Link href="/page-projects">Projects List</Link></li>
+                            <li><Link href="/page-projects">Projects Grid</Link></li>
                             <li><Link href="/page-project-details">Project Details</Link></li>
                         </ul>
                     </li>
                     <li className="dropdown"><Link href="/page-team">Team</Link>
                         <ul>
-                            <li><Link href="/page-team">Team List</Link></li>
+                            <li><Link href="/page-team">Team Grid</Link></li>
                             <li><Link href="/page-team-details">Team Details</Link></li>
                         </ul>
                     </li>
@@ -45,7 +45,7 @@ const NavLinks = ({ extraClassName }) => {
             </li>
             <li className="dropdown"><Link href="/page-services">Services</Link>
                 <ul>
-                    <li><Link href="/page-services">Services List</Link></li>
+                    <li><Link href="/page-services">Services Grid</Link></li>
                     <li><Link href="/page-service-details">Service Details</Link></li>
                 </ul>
             </li>
