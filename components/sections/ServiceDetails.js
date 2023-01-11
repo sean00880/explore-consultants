@@ -5,27 +5,27 @@ import Accordion from '../elements/Accordion';
 const serviceListData = [
 	{
 		title: "Digital Marketing",
-		linkurl: "page-about"	
+		linkurl: "page-service-details"
 	},
 	{
 		title: "Designing",
-		linkurl: "#"	
+		linkurl: "page-service-details"
 	},
 	{
 		title: "Product Development",
-		linkurl: "#"	
+		linkurl: "page-service-details"
 	},
 	{
 		title: "Data Analysis",
-		linkurl: "#"	
+		linkurl: "page-service-details"
 	},
 	{
 		title: "Security System",
-		linkurl: "#"	
+		linkurl: "page-service-details"
 	},
 	{
 		title: "Data Visualization",
-		linkurl: "#"	
+		linkurl: "page-service-details"
 	},
 ];
 
