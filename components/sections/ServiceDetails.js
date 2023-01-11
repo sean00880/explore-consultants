@@ -43,8 +43,8 @@ const Serviceone = ({ alternate }) => {
 										data-wow-delay="0.1s" data-wow-duration="1200m">
 										<div className="service-list">
 										<ul>
-											{serviceListData.map((eachitem) => (
-												<li><Link href={eachitem.linkurl}><i className="fas fa-angle-right"></i><span>{eachitem.title}</span></Link></li>
+											{serviceListData.map((eachitem, index) => (
+												<li><Link className={(index === 0) ? 'current': ''} href={eachitem.linkurl}><i className="fas fa-angle-right"></i><span>{eachitem.title}</span></Link></li>
 											))}
 										</ul>
 										</div>
