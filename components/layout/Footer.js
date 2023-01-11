@@ -44,7 +44,7 @@ const Footer = () => {
                                     <div className="widget-content">
                                         <div className="text">66 Road Broklyn Street, 600 New York, USA</div>
                                         <ul className="contact-info">
-                                            <li><i className="fa fa-envelope" /> <a href="mailto:needhelp@potisen.com">needhelp@company.com</a><br /></li>
+                                            <li><i className="fa fa-envelope" /> <a href="mailto:needhelp@company.com">needhelp@company.com</a><br /></li>
                                             <li><i className="fa fa-phone-square" /> <a href="tel:+926668880000">+92 666 888 0000</a><br /></li>
                                         </ul>
                                     </div>

@@ -22,12 +22,12 @@ const ContactInner = () => {
                                 <div className="contact-info-box-two">
                                     <span className="icon fa fa-envelope" />
                                     <h6 className="title">Email address</h6>
-                                    <div className="text"><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></div>
+                                    <div className="text"><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></div>
                                 </div>
                                 <div className="contact-info-box-two">
                                     <span className="icon fa fa-phone" />
                                     <h6 className="title">Call now</h6>
-                                    <div className="text"><Link href="/tel:+999000111222">+999 000 111 222</Link></div>
+                                    <div className="text"><Link href="tel:+999000111222">+999 000 111 222</Link></div>
                                 </div>
                             </div>
                         </div>
