@@ -10,11 +10,9 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
         <>
 
             <header className={`main-header header-style-two ${scroll ? "fixed-header" : ""} ${searchToggle ? "moblie-search-active" : ""}`}>
-                {/* Header Top */}
                 <div className="header-top">
                     <div className="inner-container">
                         <div className="top-left">
-                            {/* Info List */}
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                 <li><i className="fa fa-map-marker" /> 88 Broklyn Golden Street. New York</li>
@@ -121,7 +119,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <span className="search-back-drop" />
                     <button className="close-search" onClick={handleToggle}><span className="fa fa-times" /></button>
                     <div className="search-inner">
-                        <form method="post" action="index">
+                        <form method="post" action="/">
                             <div className="form-group">
                                 <input type="search" name="search-field" placeholder="Search..." required />
                                 <button type="submit"><i className="fa fa-search" /></button>
