@@ -32,7 +32,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <div className="image-column col-lg-6 col-md-12">
-                                <figure className="image"><img src="/images/resource/testimonial-1.png" alt='Oitech' /></figure>
+                                <figure className="image"><img src="/images/resource/testimonial-1.png" title='Oitech' /></figure>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -51,7 +51,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <div className="image-column col-lg-6 col-md-12">
-                                <figure className="image"><img src="/images/resource/testimonial-1.png" alt='Oitech' /></figure>
+                                <figure className="image"><img src="/images/resource/testimonial-1.png" title='Oitech' /></figure>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -70,7 +70,7 @@ const Testimonial = () => {
                                 </div>
                             </div>
                             <div className="image-column col-lg-6 col-md-12">
-                                <figure className="image"><img src="/images/resource/testimonial-1.png" alt='Oitech' /></figure>
+                                <figure className="image"><img src="/images/resource/testimonial-1.png" title='Oitech' /></figure>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -91,13 +91,13 @@ const Testimonial = () => {
                     className="swiper-wrapper"
                 >
                     <SwiperSlide className="swiper-slide testimonial-thumb">
-                        <figure className="image"><img src="/images/resource/testi-thumb-2.jpg" alt='Oitech' /></figure>
+                        <figure className="image"><img src="/images/resource/testi-thumb-2.jpg" title='Oitech' /></figure>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide testimonial-thumb">
-                        <figure className="image"><img src="/images/resource/testi-thumb-1.jpg" alt='Oitech' /></figure>
+                        <figure className="image"><img src="/images/resource/testi-thumb-1.jpg" title='Oitech' /></figure>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide testimonial-thumb">
-                        <figure className="image"><img src="/images/resource/testi-thumb-3.jpg" alt='Oitech' /></figure>
+                        <figure className="image"><img src="/images/resource/testi-thumb-3.jpg" title='Oitech' /></figure>
                     </SwiperSlide>
                 </Swiper>
             </div> */}

@@ -10,7 +10,7 @@ const BlogOne = ({ alternate }) => {
                         <div className="col-xl-8 col-lg-7">
                             <div className="blog-details__left">
                                 <div className="blog-details__img">
-                                    <img src="/images/resource/news-details.jpg" alt='Oitech' />
+                                    <img src="/images/resource/news-details.jpg" title='Oitech' />
                                     <div className="blog-details__date">
                                         <span className="day">28</span>
                                         <span className="month">Aug</span>
@@ -58,7 +58,7 @@ const BlogOne = ({ alternate }) => {
                                 <div className="comment-one">
                                     <h3 className="comment-one__title">2 Comments</h3>
                                     <div className="comment-one__single">
-                                        <div className="comment-one__image"> <img src="/images/resource/testi-thumb-1.jpg" alt='Oitech' /> </div>
+                                        <div className="comment-one__image"> <img src="/images/resource/testi-thumb-1.jpg" title='Oitech' /> </div>
                                         <div className="comment-one__content">
                                             <h3>Kevin Martin</h3>
                                             <p className="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla.
@@ -69,7 +69,7 @@ const BlogOne = ({ alternate }) => {
                                         </div>
                                     </div>
                                     <div className="comment-one__single">
-                                        <div className="comment-one__image"> <img src="/images/resource/testi-thumb-2.jpg" alt='Oitech' /> </div>
+                                        <div className="comment-one__image"> <img src="/images/resource/testi-thumb-2.jpg" title='Oitech' /> </div>
                                         <div className="comment-one__content">
                                             <h3>Sarah Albert</h3>
                                             <p className="blog-details__text-2">Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla.
@@ -119,7 +119,7 @@ const BlogOne = ({ alternate }) => {
                                     <h3 className="sidebar__title">Latest Posts</h3>
                                     <ul className="sidebar__post-list list-unstyled">
                                         <li>
-                                            <div className="sidebar__post-image"> <img src="/images/resource/news-1.jpg" alt='Oitech' /> </div>
+                                            <div className="sidebar__post-image"> <img src="/images/resource/news-1.jpg" title='Oitech' /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
                                                     className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">Top crypto exchange influencers</Link>
@@ -127,14 +127,14 @@ const BlogOne = ({ alternate }) => {
                                             </div>
                                         </li>
                                         <li>
-                                            <div className="sidebar__post-image"> <img src="/images/resource/news-2.jpg" alt='Oitech' /> </div>
+                                            <div className="sidebar__post-image"> <img src="/images/resource/news-2.jpg" title='Oitech' /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
                                                     className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">Necessity may give us best virtual court</Link> </h3>
                                             </div>
                                         </li>
                                         <li>
-                                            <div className="sidebar__post-image"> <img src="/images/resource/news-3.jpg" alt='Oitech' /> </div>
+                                            <div className="sidebar__post-image"> <img src="/images/resource/news-3.jpg" title='Oitech' /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
                                                     className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">You should know about business plan</Link> </h3>

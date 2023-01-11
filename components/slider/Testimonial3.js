@@ -70,7 +70,7 @@ const Testimonial3 = () => {
                     <SwiperSlide className="testimonial-block-three">
                         <div className="inner-box">
                             <div className="image-box">
-                                <figure className="thumb"><img src="/images/resource/test-thumb-7.jpg" alt='Oitech' /></figure>
+                                <figure className="thumb"><img src="/images/resource/test-thumb-7.jpg" title='Oitech' /></figure>
                                 <span className="icon fa fa-quote-right" />
                             </div>
                             <div className="content-box">
@@ -86,7 +86,7 @@ const Testimonial3 = () => {
                     <SwiperSlide className="testimonial-block-three">
                         <div className="inner-box">
                             <div className="image-box">
-                                <figure className="thumb"><img src="/images/resource/test-thumb-8.jpg" alt='Oitech' /></figure>
+                                <figure className="thumb"><img src="/images/resource/test-thumb-8.jpg" title='Oitech' /></figure>
                                 <span className="icon fa fa-quote-right" />
                             </div>
                             <div className="content-box">

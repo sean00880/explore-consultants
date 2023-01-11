@@ -33,7 +33,7 @@ const AboutFive = () => {
                         <div className="image-column col-xl-6 col-lg-6 col-md-12 ">
                             <div className="inner-column">
                                 <div className="image-box">
-                                    <figure className="image overlay-anim wow fadeInUp"><img src="/images/resource/about-11.jpg" alt='Oitech' /></figure>
+                                    <figure className="image overlay-anim wow fadeInUp"><img src="/images/resource/about-11.jpg" title='Oitech' /></figure>
                                     <div className="experience">
                                         <strong>26</strong>
                                         <div className="text">Years <br />Experience</div>

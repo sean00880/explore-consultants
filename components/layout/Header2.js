@@ -45,7 +45,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoDark} alt='Oitech' /></Link></div>
+                            <div className="logo"><Link href="/"><Image src={LogoDark} title='Oitech' /></Link></div>
                         </div>
                         {/*Nav Box*/}
                         <div className="nav-outer">
@@ -78,7 +78,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     {/*Here Menu Will Come Automatically ViLink Javascript / Same Menu as in Header*/}
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} alt='Oitech' /></Link></div>
+                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Oitech' /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <ul className="navigation clearfix">
@@ -138,7 +138,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" title><Image src={LogoDark} alt='Oitech' /></Link>
+                                <Link href="/" title><Image src={LogoDark} title='Oitech' /></Link>
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">

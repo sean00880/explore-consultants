@@ -73,7 +73,7 @@ const WhyChooseTwo = () => {
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="image-box wow fadeInRight">
                                 <figure className="image overlay-anim">
-                                    <img src="/images/resource/why-us-3.jpg" alt='Oitech' />
+                                    <img src="/images/resource/why-us-3.jpg" title='Oitech' />
                                     <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /></a>
                                 </figure>
                             </div>

@@ -11,7 +11,7 @@ const LocationOne = () => {
                         <h2>Our Locations</h2>
                     </div>
                     <div className="map-box">
-                        <figure className="map"><img src="/images/icons/dotted-map.png" alt='Oitech' /></figure>
+                        <figure className="map"><img src="/images/icons/dotted-map.png" title='Oitech' /></figure>
                         {/* Location 1*/}
                         <div className="location location-1">
                             <span className="location-dot" />
