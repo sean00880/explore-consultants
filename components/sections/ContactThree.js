@@ -7,7 +7,6 @@ const ContactThree = () => {
             <section className="contact-section-three pull-up">
                 <div className="auto-container">
                     <div className="row">
-                        {/* Info Column */}
                         <div className="info-column col-lg-6 col-md-12 col-sm-12 order-2">
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title light">
@@ -23,21 +22,18 @@ const ContactThree = () => {
                                 <div className="contact-info-box-two">
                                     <span className="icon fa fa-envelope" />
                                     <h6 className="title">Email address</h6>
-                                    <div className="text"><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></div>
+                                    <div className="text"><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></div>
                                 </div>
                                 <div className="contact-info-box-two">
                                     <span className="icon fa fa-phone" />
                                     <h6 className="title">Call now</h6>
-                                    <div className="text"><Link href="/tel:+999000111222">+999 000 111 222</Link></div>
+                                    <div className="text"><Link href="tel:+999000111222">+999 000 111 222</Link></div>
                                 </div>
                             </div>
                         </div>
-                        {/* Form Column */}
                         <div className="form-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
-                                {/* Contact Form */}
                                 <div className="contact-form-two style-two wow fadeInLeft">
-                                    {/*Contact Form*/}
                                     <form method="post" action="/" id="contact-form">
                                         <div className="row">
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
@@ -61,7 +57,6 @@ const ContactThree = () => {
                                         </div>
                                     </form>
                                 </div>
-                                {/*End Contact Form */}
                             </div>
                         </div>
                     </div>

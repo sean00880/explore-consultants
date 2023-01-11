@@ -146,7 +146,7 @@ const TeamDetails = ({ alternate }) => {
 									<textarea name="form_message" className="form-control required" rows="5" placeholder="Enter Message" />
 								</div>
 								<div className="mb-3 text-center">
-									<input name="form_botcheck" className="form-control" type="hidden" value="" />
+									<input name="form_botcheck" className="form-control" type="hidden" value="/page-team-details" />
 									<button type="submit" className="theme-btn btn-style-one"><span className="btn-title">Send message</span></button>
 									<button type="reset" className="theme-btn btn-style-one mx-3"><span className="btn-title">Reset</span></button>
 								</div>

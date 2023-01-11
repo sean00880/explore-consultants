@@ -17,7 +17,7 @@ const LocationTwo = () => {
                                 <h5 className="title">Newyork</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
-                                    <li><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                     <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
@@ -28,7 +28,7 @@ const LocationTwo = () => {
                                 <h5 className="title">Washington</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
-                                    <li><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                     <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
@@ -39,7 +39,7 @@ const LocationTwo = () => {
                                 <h5 className="title">Boston</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
-                                    <li><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                     <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
@@ -50,7 +50,7 @@ const LocationTwo = () => {
                                 <h5 className="title">Chicago</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
-                                    <li><Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                     <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
