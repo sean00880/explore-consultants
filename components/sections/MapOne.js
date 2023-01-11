@@ -15,8 +15,8 @@ const MapOne = () => {
                                 <div className="inner-box">
                                     <h5 className="title">New York</h5>
                                     <ul className="info-list">
-                                        <li><i className="fa fa-phone" /> <Link href="/tel:666888000">666 888 000</Link><br /></li>
-                                        <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
+                                        <li><i className="fa fa-phone" /> <Link href="tel:666888000">666 888 000</Link><br /></li>
+                                        <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
                                         <li><i className="fa fa-map-marker-alt" /> 35 Deerfield Valdosta Road, United Kingdom</li>
                                     </ul>
                                 </div>
@@ -26,8 +26,8 @@ const MapOne = () => {
                                 <div className="inner-box">
                                     <h5 className="title">Washington DC</h5>
                                     <ul className="info-list">
-                                        <li><i className="fa fa-phone" /> <Link href="/tel:666888000">666 888 000</Link><br /></li>
-                                        <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
+                                        <li><i className="fa fa-phone" /> <Link href="tel:666888000">666 888 000</Link><br /></li>
+                                        <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
                                         <li><i className="fa fa-map-marker-alt" /> 35 Deerfield Valdosta Road, United Kingdom</li>
                                     </ul>
                                 </div>
@@ -37,8 +37,8 @@ const MapOne = () => {
                                 <div className="inner-box">
                                     <h5 className="title">Las Vegas</h5>
                                     <ul className="info-list">
-                                        <li><i className="fa fa-phone" /> <Link href="/tel:666888000">666 888 000</Link><br /></li>
-                                        <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
+                                        <li><i className="fa fa-phone" /> <Link href="tel:666888000">666 888 000</Link><br /></li>
+                                        <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link><br /></li>
                                         <li><i className="fa fa-map-marker-alt" /> 35 Deerfield Valdosta Road, United Kingdom</li>
                                     </ul>
                                 </div>
