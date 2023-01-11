@@ -12,7 +12,7 @@ const CtaThree = () => {
                             <h5 className="title">Need IT solutions &amp; services consultation?</h5>
                         </div>
                         <div className="btn-box">
-                            <Link href="page-services.html" className="theme-btn btn-style-one bg-light"><span className="btn-title">get solution</span></Link>
+                            <Link href="/page-services" className="theme-btn btn-style-one bg-light"><span className="btn-title">get solution</span></Link>
                         </div>
                     </div>
                 </div>

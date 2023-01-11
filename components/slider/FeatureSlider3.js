@@ -71,12 +71,12 @@ const FeatureSlider3 = () => {
                         <div className="feature-block-three">
                             <div className="inner-box ">
                                 <figure className="image">
-                                    <a href="page-about.html">
+                                    <a href="/page-about">
                                     <img src={`/images/resource/${item.img}`} alt />
                                     </a>
                                     <span className="icon">G</span>
                                 </figure>
-                                <h4 className="title"><a href="page-about.html">{item.title}</a></h4>
+                                <h4 className="title"><a href="/page-about">{item.title}</a></h4>
                                 <div className="text">There are many variations of passages of ipsum available, but the majority have suffered alteration in form.</div>
                             </div>
                         </div>

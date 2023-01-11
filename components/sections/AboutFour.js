@@ -16,7 +16,7 @@ const AboutFour = () => {
                                 </div>
                                 <blockquote className="blockquote-style-one">Lorem Ipsum is simply dummy available typesetting industry been the industry standard.</blockquote>
                                 <div className="btn-box d-flex">
-                                    <Link href="page-about.html" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     <div className="founder-info">
                                         <div className="thumb"><img src="/images/resource/thumb-1.jpg" alt /></div>
                                         <h5 className="name">Kevin Martin</h5>
@@ -25,7 +25,6 @@ const AboutFour = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Image Column */}
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <span className="float-text">oitech</span>

@@ -26,9 +26,7 @@ const AboutThree = () => {
                                             <p className="text">Lorem ipsum dolor sit amet not is consectetur notted.</p>
                                         </div>
                                     </div>
-                                    {/*Skills*/}
                                     <div className="skills">
-                                        {/*Skill Item*/}
                                         <div className="skill-item">
                                             <div className="skill-header">
                                                 <h6 className="skill-title">Technology</h6>
@@ -47,12 +45,11 @@ const AboutThree = () => {
                                         </div>
                                     </div>
                                     <div className="btn-box">
-                                        <Link href="page-about.html" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                        <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* Image Column */}
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-5.jpg" alt /></figure>

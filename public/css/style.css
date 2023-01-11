@@ -5907,7 +5907,7 @@ Section Title
 .branch-block .inner-box:hover .info-list li,
 .branch-block .inner-box:hover .info-list li i,
 .branch-block .inner-box:hover .title {
-  color: #fff;
+  color: var(--bg-theme-color1);
 }
 .branch-block .title {
   margin-bottom: 35px;

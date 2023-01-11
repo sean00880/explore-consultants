@@ -7,7 +7,6 @@ const FaqOne = () => {
             <section className="faqs-section">
                 <div className="auto-container">
                     <div className="row">
-                        {/* FAQ Column */}
                         <div className="faq-column col-lg-6 col-md-12 col-sm-12 order-4">
                             <div className="faq-bg" style={{ backgroundImage: 'url(./images/icons/pattern-2.jpg)' }} />
                             <div className="inner-column">
@@ -18,18 +17,15 @@ const FaqOne = () => {
                                 <Accordion />
                             </div>
                         </div>
-                        {/* Form Column */}
                         <div className="form-column col-lg-6 col-md-12 col-sm-12">
                             <div className="form-bg" style={{ backgroundImage: 'url(./images/background/3.jpg)' }} />
                             <div className="inner-column">
-                                {/* Contact Form */}
                                 <div className="contact-form wow fadeInLeft">
                                     <div className="title-box">
                                         <span className="sub-title">Contact us</span>
                                         <h3>Write Email</h3>
                                     </div>
-                                    {/*Contact Form*/}
-                                    <form method="post" action="get" id="contact-form">
+                                    <form method="post" action="/" id="contact-form">
                                         <div className="form-group">
                                             <input type="text" name="full_name" placeholder="Your Name" required />
                                         </div>
@@ -47,7 +43,6 @@ const FaqOne = () => {
                                         </div>
                                     </form>
                                 </div>
-                                {/*End Contact Form */}
                             </div>
                         </div>
                     </div>

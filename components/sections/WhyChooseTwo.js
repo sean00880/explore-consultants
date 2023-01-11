@@ -29,39 +29,44 @@ const WhyChooseTwo = () => {
                                         </div>
                                     </div>
                                 </div>
-                                {/*Skills*/}
+
                                 <div className="skills">
-                                    {/*Skill Item*/}
                                     <div className="skill-item">
                                         <div className="skill-header">
                                             <h6 className="skill-title">Technology</h6>
                                         </div>
                                         <div className="skill-bar">
                                             <div className="bar-inner">
-                                                <div className="bar progress-line" data-width={86}>
+                                                <div className="bar progress-line" data-width={77} style={{width: `77%`}} >
                                                     <div className="skill-percentage">
-                                                        <div className="count-box"><span className="count-text" data-speed={3000} data-stop={86}>0</span>%</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/*Skill Item*/}
-                                    <div className="skill-item">
-                                        <div className="skill-header">
-                                            <h6 className="skill-title">Solutions</h6>
-                                        </div>
-                                        <div className="skill-bar">
-                                            <div className="bar-inner">
-                                                <div className="bar progress-line" data-width={77}>
-                                                    <div className="skill-percentage">
-                                                        <div className="count-box"><span className="count-text" data-speed={3000} data-stop={77}>0</span>%</div>
+                                                        <div className="count-box">
+                                                            <span className="count-text" data-speed={3000} data-stop={77}>77</span>%
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div className="skills">
+                                    <div className="skill-item">
+                                        <div className="skill-header">
+                                            <h6 className="skill-title">Solutions</h6>
+                                        </div>
+                                        <div className="skill-bar">
+                                            <div className="bar-inner">
+                                                <div className="bar progress-line" data-width={95} style={{width: `95%`}} >
+                                                    <div className="skill-percentage">
+                                                        <div className="count-box">
+                                                            <span className="count-text" data-speed={3000} data-stop={95}>95</span>%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         {/* Image Column */}

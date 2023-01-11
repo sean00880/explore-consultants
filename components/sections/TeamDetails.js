@@ -41,31 +41,65 @@ const TeamDetails = ({ alternate }) => {
 							</div>
 							<div className="col-xl-6 col-lg-6">
 								<div className="team-details__bottom-right">
-									<div className="team-details__progress">
-										<div className="team-details__progress-single">
-											<h4 className="team-details__progress-title">Tecnology</h4>
-											<div className="bar">
-												<div className="bar-inner count-bar" data-percent="90%">
-													<div className="count-text">90%</div>
-												</div>
-											</div>
-										</div>
-										<div className="team-details__progress-single">
-											<h4 className="team-details__progress-title">Marketing</h4>
-											<div className="bar">
-												<div className="bar-inner count-bar" data-percent="80%">
-													<div className="count-text">80%</div>
-												</div>
-											</div>
-										</div>
-										<div className="team-details__progress-single">
-											<h4 className="team-details__progress-title">Business</h4>
-											<div className="bar marb-0">
-												<div className="bar-inner count-bar" data-percent="75%">
-													<div className="count-text">75%</div>
-												</div>
-											</div>
-										</div>
+									<div className="">
+                    <div className="skills">
+                        <div className="skill-item">
+                            <div className="skill-header">
+                                <h6 className="skill-title">Technology</h6>
+                            </div>
+                            <div className="skill-bar">
+                                <div className="bar-inner">
+                                    <div className="bar progress-line" data-width={77} style={{width: `77%`}} >
+                                        <div className="skill-percentage">
+                                            <div className="count-box">
+                                                <span className="count-text" data-speed={3000} data-stop={77}>77</span>%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+									</div>
+									<div className="">
+                    <div className="skills">
+                        <div className="skill-item">
+                            <div className="skill-header">
+                                <h6 className="skill-title">Marketing</h6>
+                            </div>
+                            <div className="skill-bar">
+                                <div className="bar-inner">
+                                    <div className="bar progress-line" data-width={90} style={{width: `90%`}} >
+                                        <div className="skill-percentage">
+                                            <div className="count-box">
+                                                <span className="count-text" data-speed={3000} data-stop={90}>90</span>%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+									</div>
+									<div className="">
+                    <div className="skills">
+                        <div className="skill-item">
+                            <div className="skill-header">
+                                <h6 className="skill-title">Business</h6>
+                            </div>
+                            <div className="skill-bar">
+                                <div className="bar-inner">
+                                    <div className="bar progress-line" data-width={99} style={{width: `99%`}} >
+                                        <div className="skill-percentage">
+                                            <div className="count-box">
+                                                <span className="count-text" data-speed={3000} data-stop={99}>99</span>%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 									</div>
 								</div>
 							</div>

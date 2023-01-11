@@ -18,8 +18,8 @@ const BlogOne = ({ alternate }) => {
                                 </div>
                                 <div className="blog-details__content">
                                     <ul className="list-unstyled blog-details__meta">
-                                        <li><Link href="news-details"><i className="fas fa-user-circle"></i> Admin</Link> </li>
-                                        <li><Link href="news-details"><i className="fas fa-comments"></i> 02
+                                        <li><Link href="/news-details"><i className="fas fa-user-circle"></i> Admin</Link> </li>
+                                        <li><Link href="/news-details"><i className="fas fa-comments"></i> 02
                                             Comments</Link>
                                         </li>
                                     </ul>
@@ -44,15 +44,15 @@ const BlogOne = ({ alternate }) => {
                                     </p>
                                 </div>
                                 <div className="blog-details__bottom">
-                                    <p className="blog-details__tags"> <span>Tags</span> <Link href="news-details">Agriculture</Link> <Link href="news-details">Farm</Link> </p>
-                                    <div className="blog-details__social-list"> <Link href="news-details"><i className="fab fa-twitter"></i></Link> <Link href="news-details"><i className="fab fa-facebook"></i></Link> <Link href="news-details"><i className="fab fa-pinterest-p"></i></Link> <Link href="news-details"><i className="fab fa-instagram"></i></Link> </div>
+                                    <p className="blog-details__tags"> <span>Tags</span> <Link href="/news-details">Technology</Link> <Link href="/news-details">Software</Link> </p>
+                                    <div className="blog-details__social-list"> <Link href="/news-details"><i className="fab fa-twitter"></i></Link> <Link href="/news-details"><i className="fab fa-facebook"></i></Link> <Link href="/news-details"><i className="fab fa-pinterest-p"></i></Link> <Link href="/news-details"><i className="fab fa-instagram"></i></Link> </div>
                                 </div>
                                 <div className="nav-links">
                                     <div className="prev">
-                                        <Link href="news-details" rel="prev">True factors of the modern healthy lifestyle</Link>
+                                        <Link href="/news-details" rel="prev">True factors of the modern healthy lifestyle</Link>
                                     </div>
                                     <div className="next">
-                                        <Link href="news-details" rel="next">How to lead a healthy &amp; well-balanced life</Link>
+                                        <Link href="/news-details" rel="next">How to lead a healthy &amp; well-balanced life</Link>
                                     </div>
                                 </div>
                                 <div className="comment-one">
@@ -65,7 +65,7 @@ const BlogOne = ({ alternate }) => {
                                                 Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
                                                 sollicitudin at euismod.
                                             </p>
-                                            <Link href="news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+                                            <Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
                                         </div>
                                     </div>
                                     <div className="comment-one__single">
@@ -76,7 +76,7 @@ const BlogOne = ({ alternate }) => {
                                                 Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
                                                 sollicitudin at euismod.
                                             </p>
-                                            <Link href="news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+                                            <Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
                                         </div>
                                     </div>
                                     <div className="comment-form">
@@ -122,7 +122,7 @@ const BlogOne = ({ alternate }) => {
                                             <div className="sidebar__post-image"> <img src="/images/resource/news-1.jpg" alt /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
-                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="news-details">Top crypto exchange influencers</Link>
+                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">Top crypto exchange influencers</Link>
                                                 </h3>
                                             </div>
                                         </li>
@@ -130,14 +130,14 @@ const BlogOne = ({ alternate }) => {
                                             <div className="sidebar__post-image"> <img src="/images/resource/news-2.jpg" alt /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
-                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="news-details">Necessity may give us best virtual court</Link> </h3>
+                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">Necessity may give us best virtual court</Link> </h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sidebar__post-image"> <img src="/images/resource/news-3.jpg" alt /> </div>
                                             <div className="sidebar__post-content">
                                                 <h3> <span className="sidebar__post-content-meta"><i
-                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="news-details">You should know about business plan</Link> </h3>
+                                                    className="fas fa-user-circle"></i>Admin</span> <Link href="/news-details">You should know about business plan</Link> </h3>
                                             </div>
                                         </li>
                                     </ul>
@@ -145,17 +145,17 @@ const BlogOne = ({ alternate }) => {
                                 <div className="sidebar__single sidebar__category">
                                     <h3 className="sidebar__title">Categories</h3>
                                     <ul className="sidebar__category-list list-unstyled">
-                                        <li><Link href="news-details">Artifical Intelligence<span
+                                        <li><Link href="/news-details">Artifical Intelligence<span
                                             className="icon-right-arrow"></span></Link> </li>
-                                        <li className="active"><Link href="news-details">Cloud Solution<span
+                                        <li className="active"><Link href="/news-details">Cloud Solution<span
                                             className="icon-right-arrow"></span></Link></li>
-                                        <li><Link href="news-details">Cyber Data<span
+                                        <li><Link href="/news-details">Cyber Data<span
                                             className="icon-right-arrow"></span></Link> </li>
-                                        <li><Link href="news-details">SEO Marketing<span
+                                        <li><Link href="/news-details">SEO Marketing<span
                                             className="icon-right-arrow"></span></Link> </li>
-                                        <li><Link href="news-details">UI/UX Design<span
+                                        <li><Link href="/news-details">UI/UX Design<span
                                             className="icon-right-arrow"></span></Link> </li>
-                                        <li><Link href="news-details">Web Development<span
+                                        <li><Link href="/news-details">Web Development<span
                                             className="icon-right-arrow"></span></Link> </li>
                                     </ul>
                                 </div>

@@ -32,7 +32,7 @@ const ContactOne = () => {
                                 {/* Contact Form */}
                                 <div className="contact-form-two wow fadeInLeft">
                                     {/*Contact Form*/}
-                                    <form method="post" action="get" id="contact-form">
+                                    <form method="post" action="/" id="contact-form">
                                         <div className="row">
                                             <div className="form-group col-lg-6 col-md-12">
                                                 <input type="text" name="full_name" placeholder="Full Name" required />

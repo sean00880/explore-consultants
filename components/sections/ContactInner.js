@@ -8,7 +8,7 @@ const ContactInner = () => {
                 <div className="auto-container">
                     <div className="row">
                         <div className="info-column col-lg-6 col-md-12 col-sm-12">
-                            <div className="inner-column wow fadeInRight">
+                            <div className="inner-column wow fadeInRight ps-0 pe-4">
                                 <div className="sec-title light">
                                     <div className="sub-title">Get in Touch</div>
                                     <h2>Get a free quote today</h2>
@@ -34,7 +34,7 @@ const ContactInner = () => {
                         <div className="form-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="contact-form-two style-two wow fadeInLeft">
-                                    <form method="post" action="get" id="contact-form">
+                                    <form method="post" action="/" id="contact-form">
                                         <div className="row">
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <input type="text" name="full_name" placeholder="Your Name" required />
