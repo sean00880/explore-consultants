@@ -24,7 +24,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             {/* Main Menu End*/}
                         </div>
                         <div className="outer-box">
-                            <Link href="/tel:+92(8800)9806" className="info-btn">
+                            <Link href="tel:+92(8800)9806" className="info-btn">
                                 <i className="icon fa fa-phone" />
                                 <small>Call Anytime</small><br /> + 88 ( 9800 ) 6802
                             </Link>
@@ -53,7 +53,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
                                 </div>
                             </li>
                             <li>
@@ -61,7 +61,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <Link href="mailto:help@company.com">help@company.com</Link>
                                 </div>
                             </li>
                             <li>

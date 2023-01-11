@@ -23,7 +23,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <div className="top-right">
                                 {/* Info List */}
                                 <ul className="list-style-one">
-                                    <li><i className="fa fa-envelope" /> <Link href="/mailto:needhelp@company.com">needhelp@company.com</Link></li>
+                                    <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
                                     <li><i className="fa fa-map-marker" /> 88 Broklyn Golden Street. New York</li>
                                 </ul>
                             </div>
@@ -80,7 +80,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="/tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
                                 </div>
                             </li>
                             <li>
@@ -88,7 +88,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
-                                    <Link href="/mailto:help@company.com">help@company.com</Link>
+                                    <Link href="mailto:help@company.com">help@company.com</Link>
                                 </div>
                             </li>
                             <li>
