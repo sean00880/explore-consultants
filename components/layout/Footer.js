@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image'
+import LogoWhite from './../../public/images/logo.png';
+import LogoDark from './../../public/images/logo-2.png';
 
 const Footer = () => {
     return (
@@ -7,14 +10,12 @@ const Footer = () => {
 
             <footer className="main-footer">
                 <div className="bg-image" style={{ backgroundImage: 'url(./images/background/2.jpg)' }} />
-                {/*Widgets Section*/}
                 <div className="widgets-section">
                     <div className="auto-container">
                         <div className="row">
-                            {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                                 <div className="footer-widget about-widget">
-                                    <div className="logo"><a href="index.html"><img src="/images/logo.png" alt="Oitech" /></a></div>
+                                    <div className="logo"><a href="index.html"><Image src={LogoWhite} alt="Oitech" /></a></div>
                                     <div className="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
                                     <ul className="social-icon-two">
                                         <li><a href="#"><i className="fab fa-twitter" /></a></li>
@@ -24,7 +25,6 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                                 <div className="footer-widget">
                                     <h3 className="widget-title">Explore</h3>
@@ -37,7 +37,6 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                                 <div className="footer-widget contact-widget">
                                     <h3 className="widget-title">Contact</h3>
@@ -50,7 +49,6 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/*Footer Column*/}
                             <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                                 <div className="footer-widget gallery-widget">
                                     <h3 className="widget-title">Gallery</h3>
@@ -81,11 +79,10 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                {/*Footer Bottom*/}
                 <div className="footer-bottom">
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="copyright-text">© Copyright 2022 by  <a href="https://themeforest.net/user/thememascot/portfolio">Company.com</a>
+                            <div className="copyright-text">© Copyright 2023 by  <a href="https://themeforest.net/user/thememascot/portfolio">Company.com</a>
                             </div>
                         </div>
                     </div>

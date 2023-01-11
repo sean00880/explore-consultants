@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 import MobileMenu from './MobileMenu';
+import Image from 'next/image'
+
 import NavLinks from './NavLinks';
+import LogoWhite from './../../public/images/logo.png';
+import LogoDark from './../../public/images/logo-2.png';
 
 const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll }) => {
 
@@ -68,7 +72,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><img src="/images/logo.png" alt title /></Link></div>
+                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} alt="Oitech" /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <ul className="navigation clearfix">
@@ -128,7 +132,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         <div className="inner-container">
                             {/*Logo*/}
                             <div className="logo">
-                                <Link href="/" title><img src="/images/logo-2.png" alt title /></Link>
+                                <Link href="/" title><Image src={LogoDark} alt="Oitech" /></Link>
                             </div>
                             {/*Right Col*/}
                             <div className="nav-outer">
