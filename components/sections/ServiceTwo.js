@@ -16,36 +16,36 @@ const ServiceTwo = () => {
                         </div>
                         <div className="services-column col-lg-7 col-md-12">
                             <div className="inner-column">
-                                <div className="swiper-container services-carousel-two">
-                                    <div className="swiper-wrapper">
-                                        <div className="swiper-slide service-block-two">
+                                <div className="row">
+                                    <div className="col">
+                                        <div className="service-block-two">
                                             <div className="inner-box">
                                                 <div className="icon fa fa-globe" />
                                                 <h6 className="title"><Link href="/page-service-details">Website</Link></h6>
                                             </div>
                                         </div>
-                                        <div className="swiper-slide service-block-two">
+                                    </div>
+                                    <div className="col">
+                                        <div className="service-block-two">
                                             <div className="inner-box">
                                                 <div className="icon fab fa-apple" />
                                                 <h6 className="title"><Link href="/page-service-details">IOS</Link></h6>
                                             </div>
                                         </div>
-                                        <div className="swiper-slide service-block-two">
+                                    </div>
+                                    <div className="col">
+                                        <div className="service-block-two">
                                             <div className="inner-box">
                                                 <div className="icon fab fa-android" />
                                                 <h6 className="title"><Link href="/page-service-details">Android</Link></h6>
                                             </div>
                                         </div>
-                                        <div className="swiper-slide service-block-two">
+                                    </div>
+                                    <div className="col">
+                                        <div className="service-block-two">
                                             <div className="inner-box">
                                                 <div className="icon fab fa-ioxhost" />
                                                 <h6 className="title"><Link href="/page-service-details">IOT</Link></h6>
-                                            </div>
-                                        </div>
-                                        <div className="swiper-slide service-block-two">
-                                            <div className="inner-box">
-                                                <div className="icon fa fa-tv" />
-                                                <h6 className="title"><Link href="/page-service-details">Television</Link></h6>
                                             </div>
                                         </div>
                                     </div>
