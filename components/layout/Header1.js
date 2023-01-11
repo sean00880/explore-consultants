@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image'
 import React from 'react';
 import MobileMenu from './MobileMenu';
 import NavLinks from './NavLinks';
-import Image from 'next/image'
-import LogoImages from './../../public/images/logo.png';
+import LogoWhite from './../../public/images/logo.png';
+import LogoDark from './../../public/images/logo-2.png';
+
 const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll }) => {
 
 
@@ -40,7 +42,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoImages} alt="Oitech" /></Link></div>
+                            <div className="logo"><Link href="/"><Image src={LogoWhite} alt="Oitech" /></Link></div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
@@ -118,7 +120,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="auto-container">
                         <div className="inner-container">
                             <div className="logo">
-                                <Link href="/" title><img src={LogoImages} alt="Oitech" /></Link>
+                                <Link href="/" title><Image src={LogoDark} alt="Oitech" /></Link>
                             </div>
                             <div className="nav-outer">
                                 <nav className="main-menu">
