@@ -85,7 +85,7 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <div className="auto-container">
                         <div className="inner-container">
-                            <div className="copyright-text">© Copyright 2022 by  <a href="index.html">Company.com</a>
+                            <div className="copyright-text">© Copyright 2022 by  <a href="https://themeforest.net/user/thememascot/portfolio">Company.com</a>
                             </div>
                         </div>
                     </div>
