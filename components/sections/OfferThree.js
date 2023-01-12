@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
+
 const OfferThree = () => {
     const [isOpen, setOpen] = useState(false)
     return (
@@ -7,7 +8,6 @@ const OfferThree = () => {
             <section className="offer-section-three pt-0">
                 <div className="auto-container">
                     <div className="row">
-                        {/* Content Column */}
                         <div className="content-column col-lg-6 col-md-12 order-2">
                             <div className="inner-column wow fadeInRight">
                                 <div className="sec-title">
@@ -31,15 +31,15 @@ const OfferThree = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Content Column */}
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <div className="image-box">
                                     <figure className="image"><img src="/images/resource/benefits.jpg" title='Oitech' /></figure>
                                     <div className="video-box">
-                                        <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /></a>
+                                        <a className="play-btn lightbox-image" onClick={() => setOpen(true)}><i className="icon fa fa-play" /></a>
                                     </div>
                                 </div>
+                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
                             </div>
                         </div>
                     </div>

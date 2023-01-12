@@ -8,7 +8,6 @@ const OfferFour = () => {
                 <div className="auto-container">
                     <div className="outer-box">
                         <div className="row">
-                            {/* Content Column */}
                             <div className="content-column col-xl-5 col-lg-6 col-md-12">
                                 <div className="inner-column wow fadeInRight">
                                     <div className="sec-title">
@@ -35,7 +34,6 @@ const OfferFour = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* Content Column */}
                             <div className="image-column col-xl-7 col-lg-6 col-md-12 col-sm-12">
                                 <div className="inner-column wow fadeInLeft">
                                     <div className="image-box">

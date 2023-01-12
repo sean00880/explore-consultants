@@ -3760,10 +3760,6 @@ Section Title
 .features-section-three .carousel-outer {
   padding: 0 45px;
 }
-.features-section-three .features-carousel .feature-block-three {
-  padding: 0px 15px 15px;
-}
-
 .feature-block-three {
   position: relative;
   margin-bottom: 30px;
@@ -4397,7 +4393,7 @@ Section Title
   position: relative;
   margin-right: 10px;
   font-size: 14px;
-  color: #ff5316;
+  color: var(--bg-theme-color2);
 }
 .about-block-two .text {
   margin-bottom: 0;
@@ -8530,9 +8526,6 @@ Section Title
   position: relative;
   margin: -10px -15px 0;
 }
-.testimonial-section-two .testimonial-column .testimonial-carousel .testimonial-block-two {
-  padding: 15px 15px 0;
-}
 .testimonial-section-two .sec-title h3 {
   font-size: 38px;
 }
@@ -10722,7 +10715,6 @@ Section Title
   margin-right: -410px;
 }
 .news-section-two .carousel-column .news-block {
-  padding: 0 15px 30px;
   margin-bottom: 0;
 }
 .news-section-two .carousel-column .news-block .inner-box {
