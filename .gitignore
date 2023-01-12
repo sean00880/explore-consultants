@@ -3,3 +3,5 @@ node_modules/*
 .next/*
 yarn.lock
 prepros.config
+package-lock.json
+package.json
