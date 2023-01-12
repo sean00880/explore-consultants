@@ -26,7 +26,7 @@ export default function Home2() {
                 <AboutThree />
                 <ProjectTwo />
                 <OfferTwo />
-                <FunfactTwo />
+                <FunfactTwo addClass={"pb-0"} />
                 <AboutFour />
                 <ClientOne addClass={"alternate"} />
                 <FeaturesThree />

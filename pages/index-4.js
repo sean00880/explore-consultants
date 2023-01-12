@@ -10,7 +10,7 @@ import CtaFive from "../components/sections/CtaFive";
 import CtaTwo from "../components/sections/CtaTwo";
 import FeaturesFive from "../components/sections/FeaturesFive";
 import Industries from "../components/sections/Industries";
-import ProjectOne from "../components/sections/ProjectOne";
+import ProjectFour from "../components/sections/ProjectFour";
 import ServiceFour from "../components/sections/ServiceFour";
 import TeamTwo from "../components/sections/TeamTwo";
 import TestimonialThree from "../components/sections/TestimonialThree";
@@ -31,7 +31,7 @@ const Home4 = () => {
                 <CtaTwo />
                 <ServiceFour />
                 <AboutSix />
-                <ProjectOne addClass={"style-two"} />
+                <ProjectFour addClass={"style-two text-white"} />
                 <WorkSection />
                 <TestimonialThree />
                 <FeaturesFive />

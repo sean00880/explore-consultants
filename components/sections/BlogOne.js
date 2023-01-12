@@ -1,17 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BlogOne = ({ alternate }) => {
+const BlogOne = ({ addClass }) => {
     return (
         <>
-            <section className={`news-section ${alternate}`}>
+            <section className={`news-section ${addClass}`}>
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="sub-title">from the blog</span>
                         <h2>News &amp; Articles</h2>
                     </div>
                     <div className="row">
-                        {/* News Block */}
                         <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
@@ -31,7 +30,6 @@ const BlogOne = ({ alternate }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* News Block */}
                         <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box">
                                 <div className="image-box">
@@ -51,7 +49,6 @@ const BlogOne = ({ alternate }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* News Block */}
                         <div className="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                             <div className="inner-box">
                                 <div className="image-box">

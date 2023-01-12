@@ -29,7 +29,7 @@ const Home5 = () => {
                 <Faq />
                 <TestimonialFour />
                 <ContactFour />
-                <BlogOne />
+                <BlogOne addClass={"pt-0 pb-0"}/>
                 <ClientOne />
 
             </Layout>

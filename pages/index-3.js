@@ -26,8 +26,6 @@ const Home3 = () => {
                 <ClientOne addClass={"border-bottom"} />
                 <ServiceThree />
                 <AboutFive />
-                <VideoOne />
-                <OfferThree />
                 <ProjectThree />
                 <WhyChooseTwo />
                 <CtaOne addClass={"alternate"} />

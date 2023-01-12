@@ -64,7 +64,6 @@ const ContactFour = () => {
                                 </div>
                                 <div className="info-box">
                                     <figure className="image"><img src="/images/resource/our-value-2.jpg" title='Oitech' /></figure>
-                                    {/* Counter block*/}
                                     <div className="counter-block-two">
                                         <div className="count-box">
                                             <CounterUp className="count-text" count={4520} time={3} />
@@ -74,10 +73,8 @@ const ContactFour = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Form Column */}
                         <div className="form-column col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column">
-                                {/* Contact Form */}
                                 <div className="contact-form-three wow fadeInLeft">
                                     <div className="title-box">
                                         <h3 className="title">Get a Free <br />Quote</h3>

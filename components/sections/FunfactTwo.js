@@ -1,14 +1,13 @@
 import React from 'react';
 import CounterUp from '../elements/CounterUp';
 
-const FunfactTwo = () => {
+const FunfactTwo = ({ addClass }) => {
     return (
         <>
-            <section className="fun-fact-section">
+            <section className={`fun-fact-section ${addClass}`}>
                 <div className="auto-container">
                     <div className="fact-counter">
                         <div className="row">
-                            {/* Counter block*/}
                             <div className="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                                 <div className="inner">
                                     <i className="icon flaticon-business-060-graph" />
@@ -18,7 +17,6 @@ const FunfactTwo = () => {
                                     <h6 className="counter-title">Project completed</h6>
                                 </div>
                             </div>
-                            {/*Counter block*/}
                             <div className="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                                 <div className="inner">
                                     <i className="icon flaticon-business-035-helpline" />
@@ -28,7 +26,6 @@ const FunfactTwo = () => {
                                     <h6 className="counter-title">IT specialists</h6>
                                 </div>
                             </div>
-                            {/*Counter block*/}
                             <div className="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                                 <div className="inner">
                                     <i className="icon flaticon-business-020-hierarchy" />
@@ -38,7 +35,6 @@ const FunfactTwo = () => {
                                     <h6 className="counter-title">Satisfied clients</h6>
                                 </div>
                             </div>
-                            {/*Counter block*/}
                             <div className="counter-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                                 <div className="inner">
                                     <i className="icon flaticon-business-048-coin" />
