@@ -9556,8 +9556,8 @@ Section Title
   transition: all 400ms linear;
 }
 .team-block .inner-box:hover .info-box {
-  -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 10px 60px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   padding-bottom: 60px;
 }
 .team-block .inner-box:hover .social-links {

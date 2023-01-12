@@ -7,7 +7,6 @@ const TestimonialTwo = () => {
             <section className="testimonial-section-two">
                 <div className="auto-container">
                     <div className="row">
-                        {/* Title Column */}
                         <div className="title-column col-xl-3 col-lg-12">
                             <div className="sec-title">
                                 <span className="sub-title">Our feedbacks</span>
@@ -15,7 +14,6 @@ const TestimonialTwo = () => {
                                 <div className="text">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean solldin, lorem is simply free text quis bibendum.</div>
                             </div>
                         </div>
-                        {/* Testimonial Column */}
                         <div className="testimonial-column col-xl-9 col-lg-12">
                             <div className="inner-column">
                                 <Testimonial />
