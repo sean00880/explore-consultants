@@ -16,7 +16,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><img src="images/logo.png" title='Oitech' /></Link></div>
+                            <div className="logo"><Link href="/"><Image src={LogoWhite} title='Oitech' /></Link></div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
