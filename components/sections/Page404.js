@@ -15,7 +15,7 @@ const AboutFive = () => {
                             </div>
                             <p className="error-page__text">Sorry we can't find that page! The page you are looking  for
                                 was never existed.</p>
-                            <form className="error-page__form" action="/">
+                            <form className="error-page__form" action="#">
                                 <div className="error-page__form-input">
                                     <input type="search" placeholder="Search here" />
                                     <button type="submit"><i className="lnr lnr-icon-magnifier"></i></button>

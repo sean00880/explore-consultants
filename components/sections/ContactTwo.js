@@ -37,7 +37,7 @@ const ContactTwo = () => {
                                         <h3>Write Email</h3>
                                     </div>
                                     {/*Contact Form*/}
-                                    <form method="post" action="/" id="contact-form">
+                                    <form method="post" action="#" id="contact-form">
                                         <div className="form-group">
                                             <input type="text" name="full_name" placeholder="Your Name" required />
                                         </div>

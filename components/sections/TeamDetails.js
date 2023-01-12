@@ -117,7 +117,7 @@ const TeamDetails = ({ alternate }) => {
 								<span className="sub-title">Contact With Us Now</span>
 								<h2 className="section-title__title">Feel Free to Write Our  Tecnology Experts</h2>
 							</div>
-							<form id="contact_form" name="contact_form" className="" method="post">
+							<form id="contact_form" name="contact_form" className="" action="#" >
 								<div className="row">
 									<div className="col-sm-6">
 										<div className="mb-3">

@@ -117,7 +117,7 @@ const Header3 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <span className="search-back-drop" />
                     <button className="close-search" onClick={handleToggle}><span className="fa fa-times" /></button>
                     <div className="search-inner">
-                        <form method="post" action="/">
+                        <form method="post" action="#">
                             <div className="form-group">
                                 <input type="search" name="search-field" placeholder="Search..." required />
                                 <button type="submit"><i className="fa fa-search" /></button>

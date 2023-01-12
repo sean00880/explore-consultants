@@ -81,7 +81,7 @@ const BlogOne = ({ alternate }) => {
                                     </div>
                                     <div className="comment-form">
                                         <h3 className="comment-form__title">Leave a Comment</h3>
-                                        <form id="contact_form" name="contact_form" className="" method="post">
+                                        <form id="contact_form" name="contact_form" className="" action="#">
                                             <div className="row">
                                                 <div className="col-sm-6">
                                                     <div className="mb-3">
@@ -110,7 +110,7 @@ const BlogOne = ({ alternate }) => {
                         <div className="col-xl-4 col-lg-5">
                             <div className="sidebar">
                                 <div className="sidebar__single sidebar__search">
-                                    <form className="sidebar__search-form">
+                                    <form className="sidebar__search-form" action="#">
                                         <input type="search" placeholder="Search here" />
                                         <button type="submit"><i className="lnr-icon-search"></i></button>
                                     </form>

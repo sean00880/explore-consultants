@@ -25,7 +25,7 @@ const FaqOne = () => {
                                         <span className="sub-title">Contact us</span>
                                         <h3>Write Email</h3>
                                     </div>
-                                    <form method="post" action="/" id="contact-form">
+                                    <form method="post" action="#" id="contact-form">
                                         <div className="form-group">
                                             <input type="text" name="full_name" placeholder="Your Name" required />
                                         </div>

@@ -34,7 +34,7 @@ const ContactInner = () => {
                         <div className="form-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="contact-form-two style-two wow fadeInLeft">
-                                    <form method="post" action="/" id="contact-form">
+                                    <form method="post" action="#" id="contact-form">
                                         <div className="row">
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <input type="text" name="full_name" placeholder="Your Name" required />
