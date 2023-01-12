@@ -5515,7 +5515,7 @@ Section Title
   margin-bottom: 0;
 }
 .service-block-two .inner-box .title:hover {
-  color: var(--theme-color2);
+  color: var(--theme-color1);
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
