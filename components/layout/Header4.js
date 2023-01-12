@@ -96,7 +96,7 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <div className="nav-outer">
                                 <nav className="main-menu">
                                     <div className="navbar-collapse show collapse clearfix">
-                                        <Navlinks />
+                                        <NavLinks />
                                     </div>
                                 </nav>
                                 <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
