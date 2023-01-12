@@ -6,7 +6,7 @@ const NavLinks = ({ extraClassName }) => {
         <ul className="navigation ${extraClassName}">
             <li className="current dropdown"><Link href="/">Home</Link>
                 <ul>
-                    <li><Link href="/index">Home</Link></li>
+                    <li><Link href="/">Home</Link></li>
                     <li><Link href="/index-2">Home Layout 2</Link></li>
                     <li><Link href="/index-3">Home Layout 3</Link></li>
                     <li><Link href="/index-4">Home Layout 4</Link></li>
