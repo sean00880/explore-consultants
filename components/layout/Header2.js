@@ -39,20 +39,15 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         </ul>
                     </div>
                 </div>
-                {/* Header Top */}
-                {/* Header Lower */}
                 <div className="header-lower">
-                    {/* Main box */}
                     <div className="main-box">
                         <div className="logo-box">
                             <div className="logo"><Link href="/"><Image src={LogoDark} title='Oitech' /></Link></div>
                         </div>
-                        {/*Nav Box*/}
                         <div className="nav-outer">
                             <nav className="nav main-menu">
                                 <NavLinks extraClassName="header2" />
                             </nav>
-                            {/* Main Menu End*/}
                             <div className="outer-box">
                                 <div className="ui-btn-outer">
                                     <button className="ui-btn ui-btn search-btn" onClick={handleToggle}>
@@ -70,8 +65,6 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                         </div>
                     </div>
                 </div>
-                {/* End Header Lower */}
-                {/* Mobile Menu  */}
                 <div className="mobile-menu">
                     <div className="menu-backdrop" onClick={handleRemove} />
                     <nav className="menu-box">
@@ -142,7 +135,7 @@ const Header2 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             </div>
                         </div>
                     </div>
-                </div>{/* End Sticky Menu */}
+                </div>
             </header>
 
 
