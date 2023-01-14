@@ -7,9 +7,9 @@ const ClientOne = ({ addClass }) => {
             <section className={`clients-section ${addClass}`}>
                 <div className="auto-container">
                     <div className="sponsors-outer">
-                        <ul className="clients-carousel">
+                        <div className="clients-carousel">
                             <Brand />
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </section>
