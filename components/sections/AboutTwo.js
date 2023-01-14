@@ -22,14 +22,13 @@ const AboutFive = () => {
                                 </ul>
                                 <div className="btn-box d-flex align-items-center">
                                     <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
-                                    <Link href="/tel:+92(8800)9806" className="info-btn">
+                                    <Link href="tel:+92(8800)9806" className="info-btn">
                                         <i className="icon fa fa-phone" />
                                         <small>Call Anytime</small><br /> + 88 ( 9800 ) 6802
                                     </Link>
                                 </div>
                             </div>
                         </div>
-                        {/* Image Column */}
                         <div className="image-column col-xl-6 col-lg-6 col-md-12 ">
                             <div className="inner-column">
                                 <div className="image-box">
