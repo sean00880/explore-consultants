@@ -74,7 +74,7 @@ const ProjectSlider = () => {
             >
                 {data.map((item, i) => (
                     <SwiperSlide className="project-block">
-                        <div className="inner-box">
+                        <li className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
                                     <Link href="images/resource/project-1.jpg" className="lightbox-image">
@@ -87,7 +87,7 @@ const ProjectSlider = () => {
                                 <h4 className="title"><Link href="/page-project-details">{item.title}</Link></h4>
                                 <span className="cat">{item.cat}</span>
                             </div>
-                        </div>
+                        </li>
                     </SwiperSlide>
                 ))}
             </Swiper>
