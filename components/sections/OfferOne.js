@@ -7,7 +7,6 @@ const OfferOne = () => {
             <section className="offer-section">
                 <div className="auto-container">
                     <div className="row">
-                        {/* Content Column */}
                         <div className="content-column col-lg-6 col-md-12">
                             <div className="inner-column">
                                 <div className="sec-title light">
@@ -26,7 +25,6 @@ const OfferOne = () => {
                                 </ul>
                             </div>
                         </div>
-                        {/* Content Column */}
                         <div className="image-column col-lg-6 col-md-12 col-sm-12">
                             <div className="inner-column">
                                 <div className="image-box">

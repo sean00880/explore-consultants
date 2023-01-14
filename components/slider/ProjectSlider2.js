@@ -72,7 +72,7 @@ const ProjectSlider2 = () => {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link href="images/resource/project-5.jpg" className="lightbox-image">
+                                    <Link href="/page-project-details" className="lightbox-image">
                                         <img src={`/images/resource/${item.img}`} title='Oitech' />
                                     </Link>
                                 </figure>

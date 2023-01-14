@@ -11,47 +11,43 @@ const LocationTwo = () => {
                         <h2>Our Customer Points <br />Worldwide</h2>
                     </div>
                     <div className="row">
-                        {/* Location 1*/}
                         <div className="location-block-two col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <h5 className="title">Newyork</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
                                     <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                    <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
+                                    <li><Link href="tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        {/* Location 1*/}
                         <div className="location-block-two col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box">
                                 <h5 className="title">Washington</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
                                     <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                    <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
+                                    <li><Link href="tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        {/* Location 1*/}
                         <div className="location-block-two col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                             <div className="inner-box">
                                 <h5 className="title">Boston</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
                                     <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                    <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
+                                    <li><Link href="tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
                         </div>
-                        {/* Location 1*/}
                         <div className="location-block-two col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms">
                             <div className="inner-box">
                                 <h5 className="title">Chicago</h5>
                                 <ul className="info-list">
                                     <li>66 Road Broklyn Street, New York</li>
                                     <li><Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                    <li><Link href="/tel:+926668889999">+92 666 888 9999</Link></li>
+                                    <li><Link href="tel:+926668889999">+92 666 888 9999</Link></li>
                                 </ul>
                             </div>
                         </div>
