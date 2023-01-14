@@ -40,12 +40,9 @@ const Header4 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Oitech' /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
-                        <ul className="navigation clearfix">
-                            <MobileMenu />
-                        </ul>
+                        <MobileMenu />
                         <ul className="contact-list-one">
                             <li>
-                                {/* Contact Info Box */}
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
