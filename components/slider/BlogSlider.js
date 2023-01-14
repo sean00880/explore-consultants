@@ -81,7 +81,7 @@ const BlogSlider = () => {
                                         <li><i className="fa fa-user" /> by Admin</li>
                                         <li><i className="fa fa-tag" /> Technology</li>
                                     </ul>
-                                    <h4 className="title"><a href="news-details.html">Professional technology information &amp; solutions are just like…</a></h4>
+                                    <h4 className="title"><a href="/news-details">Professional technology information &amp; solutions are just like…</a></h4>
                                 </div>
                                 <div className="bottom-box">
                                     <a href="news-details.html" className="read-more">Read More <i className="fa fa-long-arrow-alt-right" /></a>
