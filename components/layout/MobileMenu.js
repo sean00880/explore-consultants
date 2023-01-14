@@ -54,70 +54,9 @@ const MobileMenu = () => {
                                 <li><Link href="/index-3">Home Layout 3</Link></li>
                                 <li><Link href="/index-4">Home Layout 4</Link></li>
                                 <li><Link href="/index-5">Home Layout 5</Link></li>
-                                <li><Link href="/index-6">Home Layout 6</Link></li>
-                                <li><Link href="/index-7">Home Layout 7</Link></li>
-                                <li><Link href="/index-8">Home Layout 8</Link></li>
                             </ul>
                             <div className={isSubActive.key === 11 ? "dropdown-btn active" : "dropdown-btn"}
                                 onClick={() => handleSubClick(11)}><i class="fa fa-angle-down"></i></div></li>
-                        <li class="dropdown"><Link href="/#">Dark Layout</Link>
-                            <ul className={isSubActive.key === 12 ? "d-block" : "d-none"}>
-                                <li><Link href="/index-1-dark">Dark Layout 1</Link></li>
-                                <li><Link href="/index-2-dark">Dark Layout 2</Link></li>
-                                <li><Link href="/index-3-dark">Dark Layout 3</Link></li>
-                                <li><Link href="/index-4-dark">Dark Layout 4</Link></li>
-                                <li><Link href="/index-5-dark">Dark Layout 5</Link></li>
-                                <li><Link href="/index-6-dark">Dark Layout 6</Link></li>
-                                <li><Link href="/index-7-dark">Dark Layout 7</Link></li>
-                                <li><Link href="/index-8-dark">Dark Layout 8</Link></li>
-                            </ul>
-                            <div className={isSubActive.key === 12 ? "dropdown-btn active" : "dropdown-btn"}
-                                onClick={() => handleSubClick(12)}><i class="fa fa-angle-down"></i></div></li>
-                        <li class="dropdown"><Link href="/#">Single</Link>
-                            <ul className={isSubActive.key === 13 ? "d-block" : "d-none"}>
-                                <li><Link href="/index-1-single">Home Single 1</Link></li>
-                                <li><Link href="/index-2-single">Home Single 2</Link></li>
-                                <li><Link href="/index-3-single">Home Single 3</Link></li>
-                                <li><Link href="/index-4-single">Home Single 4</Link></li>
-                                <li><Link href="/index-5-single">Home Single 5</Link></li>
-                                <li><Link href="/index-6-single">Home Single 6</Link></li>
-                                <li><Link href="/index-7-single">Home Single 7</Link></li>
-                                <li><Link href="/index-8-single">Home Single 8</Link></li>
-                            </ul>
-                            <div className={isSubActive.key === 13 ? "dropdown-btn active" : "dropdown-btn"}
-                                onClick={() => handleSubClick(13)}><i class="fa fa-angle-down"></i></div></li>
-                        <li class="dropdown"><Link href="/#">Boxed</Link>
-                            <ul className={isSubActive.key === 14 ? "d-block" : "d-none"}>
-                                <li><Link href="/index-1-boxed">Home Boxed 1</Link></li>
-                                <li><Link href="/index-2-boxed">Home Boxed 2</Link></li>
-                                <li><Link href="/index-3-boxed">Home Boxed 3</Link></li>
-                                <li><Link href="/index-4-boxed">Home Boxed 4</Link></li>
-                                <li><Link href="/index-5-boxed">Home Boxed 5</Link></li>
-                                <li><Link href="/index-6-boxed">Home Boxed 6</Link></li>
-                                <li><Link href="/index-7-boxed">Home Boxed 7</Link></li>
-                                <li><Link href="/index-8-boxed">Home Boxed 8</Link></li>
-                            </ul>
-                            <div className={isSubActive.key === 14 ? "dropdown-btn active" : "dropdown-btn"}
-                                onClick={() => handleSubClick(14)}><i class="fa fa-angle-down"></i></div></li>
-                        <li class="dropdown"><Link href="/#">Boxed + Single</Link>
-                            <ul className={isSubActive.key === 15 ? "d-block" : "d-none"}>
-                                <li><Link href="/index-1-boxed-single">Home Single Boxed 1</Link></li>
-                                <li><Link href="/index-2-boxed-single">Home Single Boxed 2</Link></li>
-                                <li><Link href="/index-3-boxed-single">Home Single Boxed 3</Link></li>
-                                <li><Link href="/index-4-boxed-single">Home Single Boxed 4</Link></li>
-                                <li><Link href="/index-5-boxed-single">Home Single Boxed 5</Link></li>
-                                <li><Link href="/index-6-boxed-single">Home Single Boxed 6</Link></li>
-                                <li><Link href="/index-7-boxed-single">Home Single Boxed 7</Link></li>
-                                <li><Link href="/index-8-boxed-single">Home Single Boxed 8</Link></li>
-                            </ul>
-                            <div className={isSubActive.key === 15 ? "dropdown-btn active" : "dropdown-btn"}
-                                onClick={() => handleSubClick(15)}><i class="fa fa-angle-down"></i></div></li>
-                        <li class="dropdown"><Link href="/#">RTL</Link>
-                        <ul className={isSubActive.key === 16 ? "d-block" : "d-none"}>
-                                <li><Link href="/index1-rtl">Home RTL 1</Link></li>
-                            </ul>
-                            <div className={isSubActive.key === 16 ? "dropdown-btn active" : "dropdown-btn"}
-                                onClick={() => handleSubClick(16)}><i class="fa fa-angle-down"></i></div></li>
                         <li class="dropdown"><Link href="/#">Header Styles</Link>
                         <ul className={isSubActive.key === 17 ? "d-block" : "d-none"}>
                                 <li><Link href="">Header Style 1</Link></li>
