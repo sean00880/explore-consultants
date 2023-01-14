@@ -73,6 +73,16 @@ const MobileMenu = () => {
                 <li class="dropdown"><Link href="/#">Pages</Link>
                     <ul className={isActive.key === 2 ? "d-block" : "d-none"}>
                         <li><Link href="/page-about">About</Link></li>
+                        <li class="dropdown"><Link href="/#">Header Styles</Link>
+                        <ul className={isSubActive.key === 234 ? "d-block" : "d-none"}>
+                                <li><Link href="">Header Style 1</Link></li>
+                                <li><Link href="/index-2">Header Style 2</Link></li>
+                                <li><Link href="/index-3">Header Style 3</Link></li>
+                                <li><Link href="/index-4">Header Style 4</Link></li>
+                                <li><Link href="/index-5">Header Style 5</Link></li>
+                            </ul>
+                            <div className={isSubActive.key === 234 ? "dropdown-btn active" : "dropdown-btn"}
+                                onClick={() => handleSubClick(234)}><i class="fa fa-angle-down"></i></div></li>
                         <li class="dropdown"><Link href="/#">Projects</Link>
                             <ul>
                                 <li><Link href="/page-projects">Projects List</Link></li>
