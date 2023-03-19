@@ -15,7 +15,7 @@ const AboutOne = () => {
                                     <div className="inner-box ">
                                         <div className="title-box">
                                             <i className="icon flaticon-business-002-graph" />
-                                            <h5 className="title"><Link href="/page-about">Perfect Business Solutions</Link></h5>
+                                            <h5 className="title"><Link href="/page-about">Comprehensive Geotechnical Solutions</Link></h5>
                                         </div>
                                         <div className="text">When an unknown printer took <br />a galley type book.</div>
                                     </div>
@@ -25,9 +25,9 @@ const AboutOne = () => {
                                     <div className="inner-box ">
                                         <div className="title-box">
                                             <i className="icon flaticon-business-012-startup" />
-                                            <h5 className="title"><Link href="/page-about">Perfect Business Solutions</Link></h5>
+                                            <h5 className="title"><Link href="/page-about">Accurate Engineering Surveying</Link></h5>
                                         </div>
-                                        <div className="text">When an unknown printer took <br />a galley type book.</div>
+                                        <div className="text">Our engineering surveying services utilize state-of-the-art equipment and software, providing accurate mapping, topographic surveys, and construction staking services to support construction activities and project planning.</div>
                                     </div>
                                 </div>
                                 {/* Feature Block */}
@@ -35,9 +35,9 @@ const AboutOne = () => {
                                     <div className="inner-box ">
                                         <div className="title-box">
                                             <i className="icon flaticon-business-046-like" />
-                                            <h5 className="title"><Link href="/page-about">Perfect Business Solutions</Link></h5>
+                                            <h5 className="title"><Link href="/page-about">Personalized Services</Link></h5>
                                         </div>
-                                        <div className="text">When an unknown printer took <br />a galley type book.</div>
+                                        <div className="text">We are committed to delivering personalized services that are tailored to meet each client's unique needs, ensuring exceptional attention to detail, quality workmanship, and commitment to safety.</div>
                                     </div>
                                 </div>
                             </div>
@@ -50,9 +50,9 @@ const AboutOne = () => {
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                             <div className="inner-column">
                                 <div className="sec-title">
-                                    <span className="sub-title">About Our Company</span>
-                                    <h2>We Execute Our ideas From The Start to Finish</h2>
-                                    <div className="text">Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any website is the first impression on visitors.</div>
+                                    <span className="sub-title">About</span>
+                                    <h2>Explore Engineering Consultants PVT. LTD.</h2>
+                                    <div className="text">We are a Geotechnical Engineering and Engineering Surveying organization that provides complete solutions to clients and have an impeccable track record of executing a variety of projects all across India.</div>
                                 </div>
                                 <div className="content-box">
                                     <div className="info-box">
@@ -61,13 +61,13 @@ const AboutOne = () => {
                                     </div>
                                     <div className="about-block">
                                         <i className="icon flaticon-business-018-startup" />
-                                        <h5 className="title">Manage Tech Services </h5>
-                                        <div className="text">We’ve designed a culture that allows our stewards to assimilate</div>
+                                        <h5 className="title">Expertise</h5>
+                                        <div className="text">Our team of geotechnical engineers and surveying specialists has a wealth of knowledge and expertise in providing creative and useful solutions for a variety of projects across India.</div>
                                     </div>
                                     <div className="about-block">
                                         <i className="icon flaticon-business-027-world" />
-                                        <h5 className="title">Internal Networking</h5>
-                                        <div className="text">We’ve designed a culture that allows our stewards to assimilate.</div>
+                                        <h5 className="title">Quality</h5>
+                                        <div className="text">We are committed to delivering exceptional quality workmanship and attention to detail in every project we undertake, ensuring that our clients receive the best possible results.</div>
                                     </div>
                                 </div>
                                 <div className="btm-box">
@@ -79,10 +79,10 @@ const AboutOne = () => {
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
                                 <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-1.jpg" title='Oitech' /></figure>
-                                <figure className="image-2 overlay-anim wow fadeInRight"><img src="/images/resource/about-2.jpg" title='Oitech' /></figure>
+                                
                                 <div className="experience bounce-y">
-                                    <img src="/images/resource/image-1.jpg" title="Oitech" className="icon" />
-                                    <strong>3600+</strong> Satisfied Client
+                                    
+                                    <strong>4500+</strong> Satisfied Clients
                                 </div>
                             </div>
                         </div>

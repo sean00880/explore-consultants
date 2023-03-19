@@ -26,6 +26,41 @@ const ProjectSlider = () => {
             img: "project-4.jpg",
             title: "Web Development",
             cat: "Design"
+        },
+        {
+            img: "project-5.jpg",
+            title: "Smart Visions",
+            cat: "Design"
+        },
+        {
+            img: "project-6.jpg",
+            title: "Platform Integration",
+            cat: "Design"
+        },
+        {
+            img: "project-7.jpg",
+            title: "Web Development",
+            cat: "Design"
+        },
+        {
+            img: "project-8.jpg",
+            title: "Smart Visions",
+            cat: "Design"
+        },
+        {
+            img: "project-9.jpg",
+            title: "Platform Integration",
+            cat: "Design"
+        },
+        {
+            img: "project-10.jpg",
+            title: "Web Development",
+            cat: "Design"
+        },
+        {
+            img: "project-11.jpg",
+            title: "Web Development",
+            cat: "Design"
         }
     ];
 
@@ -33,6 +68,7 @@ const ProjectSlider = () => {
     return (
         <>
             <Swiper
+            style={{display:"flex",flexDirection:"column"}}
                 slidesPerView={4}
                 spaceBetween={30}
                 loop={true}
@@ -83,14 +119,12 @@ const ProjectSlider = () => {
                                 </figure>
                                 <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
                             </div>
-                            <div className="content-box">
-                                <h4 className="title"><Link href="/page-project-details">{item.title}</Link></h4>
-                                <span className="cat">{item.cat}</span>
-                            </div>
                         </div>
                     </SwiperSlide>
                 ))}
+                <Link href="/page-services" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
             </Swiper>
+            
         </>
     );
 };

@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Layout HeaderStyle="one">
-                <PageTitle pageName="Project Details" />
+                <PageTitle pageName="Projects" />
                 <ProjectDetails />
             </Layout>
         </>

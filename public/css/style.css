@@ -48,7 +48,7 @@ License: copyright commercial
 @import url("tm-utility-classes.css");
 :root {
   --theme-color1: #222429;
-  --theme-color2: #ffaa17;
+  --theme-color2: #cfb65b;
   --theme-color3: #f4f5f8;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
@@ -882,14 +882,14 @@ li {
   position: absolute;
   left: 50%;
   top: 50%;
-  height: 100px;
-  width: 100px;
+  height: 220px;
+  width: 220px;
   margin-left: -50px;
   margin-top: -60px;
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../images/logo-2.png);
-  background-size: 84px;
+  background-size: 200px;
   content: "";
 }
 
@@ -1393,6 +1393,8 @@ Scroll To Top style
   text-transform: uppercase;
   color: var(--theme-color1);
   background: var(--bg-theme-color2);
+  align-self:center;
+  margin:2vh 0;
 }
 .btn-style-one:before {
   position: absolute;
@@ -1993,6 +1995,7 @@ Main Header
 }
 .main-header .logo img {
   max-width: 100%;
+  width:150px;
   height: auto;
 }
 .main-header .main-box {
@@ -4320,9 +4323,8 @@ Section Title
   position: absolute;
   bottom: -70px;
   left: 160px;
-  min-width: 290px;
   background: #ffffff;
-  padding: 20px 20px 20px 120px;
+  padding: 20px 20px 20px 20px;
   font-size: 18px;
   line-height: 26px;
   color: var(--theme-color1);
@@ -6579,7 +6581,7 @@ Section Title
   bottom: 0;
   top: 0;
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   background-color: var(--bg-theme-color2);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7826,7 +7828,7 @@ Section Title
   height: 200px;
   width: 100%;
   content: "";
-  background-color: #f4f5f8;
+  background-color: #f4f5f800;
 }
 .project-section .carousel-outer {
   margin-left: -200px;
@@ -13372,6 +13374,12 @@ Page Title
   display: block;
 }
 
+ .row .col-xl-12{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .project-details__content-left {
   position: relative;
   display: block;
@@ -13388,8 +13396,27 @@ Page Title
   position: relative;
   border-radius: 10px;
   background-color: #f5f5f5;
-  padding: 43px 50px 50px;
   z-index: 1;
+  padding: 0;
+  margin:0;
+  width:90%;
+}
+
+.project-details__details-box img {
+  transition: 0.6s;
+  box-shadow: 0 0 4px 0 #000;
+  border-radius: 0 17px;
+}
+.project-details__details-box img:hover {
+  box-shadow: 0 0 8px 0 #000;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  transition: 0.6s;
+  box-shadow: 0 0 8px 0 #000;
+}
+
+.ul li{
+  list-style-type: upper-roman;
 }
 
 .project-details__details-list {
@@ -13464,7 +13491,31 @@ Page Title
   border-bottom: 1px solid #ece9e0;
   padding: 30px 0;
   margin-top: 117px;
+  width: 90%;
 }
+
+.project-details__pagination-box .row{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media screen and (max-width:1200px) {
+  .project-details__pagination-box .row{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }  
+  .project-details__details-box {
+    position: relative;
+    width: 90%;
+    margin: 2vh 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .project-details__pagination-box .row{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }  
+}
+
 
 .project-details__pagination {
   position: relative;

@@ -19,62 +19,33 @@ const Serviceone = ({ alternate }) => {
 						<div className="row">
 							<div className="col-xl-8 col-lg-8">
 								<div className="project-details__content-left">
-									<h3 className="">Here to Know About This Project</h3>
-									<p className="">There are many variations of passages of psum
-										available, but the majority have suffered alteration in some form, by injected
-										humour, or randomised words which don't look even slightly believable. If you are
-										going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-										embarrassing hidden in the middle of text. Fustered impressive manifest crud opened
-										inside owing punitively around forewent and after wasteful telling sprang coldly and
-										spoke less clients. Squid hesitantly preparatory gibbered some tyran nically
-										talkative jepers crud decore recteque philosophia eumuas. </p>
-									<p className="mb-5">Beyond more stoic this along goodness hey this this
-										wow manatee mongoose one as since a far flustered impressive manifest far crud
-										opened inside owing punitively around forewent and after wasteful telling sprang
-										coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran
-										nically talkative jeepers crud.</p>
-									<h3 className="">Project Challenges</h3>
-									<p className="mb-5">Eque porro est qui dolorem ipsum quia quaed inventore
-										veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus
-										quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is
-										simply dummy text of the printing and typesetting.</p>
-									<h3 className="">End to End Developement</h3>
-									<p className="">When an unknown printer took a galley of type and
-										scrambled it to make a type specimen book. It has survived not only five centuries,
-										but also the leap into electronic typesetting, remaining essentially unchanged. It
-										was popularised in the 1960s with the release of Letraset sheets containing. Neque
-										porro est qui dolorem ipsumo.</p>
+									<h3 className="">Explore Engineering Consultants Private Limited Successful Projects</h3>
+									<ul className='ul'>
+<li>Geotechnical Investigation of 16Km long route for metro rail from Shahdara to Ghaziabad corridor.</li>
+<li>Geotechnical Investigation of 15Km long route for metro rail from Barakhambba road to noida.</li>
+<li>Geotechnical Investigation of proposed 12 major Bridges and formation work along 210km New BG line from New Mayanaguri in W.B. to Joggigopha in Assam.</li>
+<li>Geotechnical Investigation of Satya Bharti Schools proposed to be constructed in different parts of India.</li>
+<li>Geo-technical Investigation and Topographical Survey for the proposed Eastern Complex of Tata Motors at Chinhat, Lucknow.</li>
+<li>Geo-technical Investigation and Topographical Survey for the proposed International Township ‘Crossing Republik’ at NH-24, Ghaziabad.</li>
+<li>Geotechnical Investigation of proposed Bridge over Yamuna from Geeta Colony to Shantivana, Delhi.</li>
+<li>Geo-technical Investigation and Topographical Survey for the proposed Shiv Nadar University at Dadri (U.P.).</li>
+<li>Topographical Survey and Geo-technical Investigation for the proposed township of DLF at Kasauli (Himachal Pradesh).</li>
+<li>Topographical Survey and Geo-technical Investigation for the proposed township of DLF at Goa.</li>
+<li>Geotechnical Investigation of various bridges on NH-24 from Hapur to Moradabad.</li>
+<li>Geotechnical Investigation of various bridges on NH-91 from Aligarh to Kanpur.</li>
+<li>Geotechnical Investigation of various bridges on NH-29 from Varanasi to Gorakhpur.</li>
+<li>Geotechnical Investigation of Ring Road By-pass at New Delhi.</li>
+<li>Geotechnical Investigation of Flyovers at Film city and Amity crossing at Noida.</li>
+<li>Topographical Survey and Geo-technical Investigation for the proposed township of Omaxe at Bahadurgarh, Rohtak, Palwal, Jaipur and Sonepat, Indore.</li>
+<li>Topographical Survey and Geo-technical Investigation for the proposed township of Shipra at Chandigarh.</li>
+</ul>
 								</div>
 							</div>
 							<div className="col-xl-4 col-lg-4">
 								<div className="project-details__content-right">
 									<div className="project-details__details-box">
-										<div className="project-details__bg-shape"> </div>
-										<ul className="list-unstyled project-details__details-list">
-											<li>
-												<p className="project-details__client">Date</p>
-												<h4 className="project-details__name">22 April, 2022</h4>
-											</li>
-											<li>
-												<p className="project-details__client">Client</p>
-												<h4 className="project-details__name">Kodesolution Ltd</h4>
-											</li>
-											<li>
-												<p className="project-details__client">Website</p>
-												<h4 className="project-details__name">www.domain.com</h4>
-											</li>
-											<li>
-												<p className="project-details__client">Location</p>
-												<h4 className="project-details__name">New York, USA</h4>
-											</li>
-											<li>
-												<p className="project-details__client">Value</p>
-												<h4 className="project-details__name">$11,367</h4>
-											</li>
-											<li>
-												<div className="project-details__social"> <Link href="#"><i className="fab fa-twitter"></i></Link> <Link href="#"><i className="fab fa-facebook"></i></Link> <Link href="#"><i className="fab fa-pinterest-p"></i></Link> <Link href="#"><i className="fab fa-instagram"></i></Link> </div>
-											</li>
-										</ul>
+										
+										<img src="/images/resource/project-details1.jpg" title='Oitech' />
 									</div>
 								</div>
 							</div>
@@ -83,20 +54,20 @@ const Serviceone = ({ alternate }) => {
 					<div className="row">
 						<div className="col-xl-12">
 							<div className="project-details__pagination-box">
-								<ul className="project-details__pagination list-unstyled clearfix">
-									<li className="next">
-										<div className="icon"> <Link href="#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link> </div>
-										<div className="content">Previous</div>
-									</li>
-									<li className="count"><Link href="#"></Link></li>
-									<li className="count"><Link href="#"></Link></li>
-									<li className="count"><Link href="#"></Link></li>
-									<li className="count"><Link href="#"></Link></li>
-									<li className="previous">
-										<div className="content">Next</div>
-										<div className="icon"> <Link href="#" aria-label="Previous"><i className="lnr lnr-icon-arrow-right"></i></Link> </div>
-									</li>
-								</ul>
+								<div className="row">
+							<div className="project-details__details-box" >
+										
+										<img src="/images/resource/project-details2.jpg" title='Oitech' />
+									</div>
+									<div className="project-details__details-box" >
+										
+										<img src="/images/resource/project-details3.jpg" title='Oitech' />
+									</div>
+									<div className="project-details__details-box" >
+										
+										<img src="/images/resource/project-details4.jpg" title='Oitech' />
+									</div>
+									</div>
 							</div>
 						</div>
 					</div>
@@ -108,3 +79,9 @@ const Serviceone = ({ alternate }) => {
 };
 
 export default Serviceone;
+
+
+
+
+
+

@@ -26,9 +26,6 @@ export default function Home() {
                 <OfferOne />
                 <CtaOne />
                 <ProjectOne />
-                <FunfactOne />
-                <TestimonialOne />
-                <ClientOne />
                 <FaqOne />
                 <BlogOne />
                 <CtaTwo />
