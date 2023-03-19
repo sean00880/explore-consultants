@@ -61,7 +61,7 @@ const IntroSlider1 = () => {
                                 <h1 className="title animate-2">Geotechnical <br />Investigation</h1>
                                 <span className="sub-title animate-1">Geotechnical Investigation (Soil Investigation) is the very first step undertaken for construction or consolidation of a site and is essential for making recommendations for technical projects after the assessment of sub-soil strata.</span>
                                 <div className="btn-box animate-3">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                    <Link href="/#about" className="theme-btn btn-style-one"><span className="btn-title">Explore</span></Link>
                                     <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /> watch video</a>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@ const IntroSlider1 = () => {
                                 <h1 className="title animate-2">Topographical<br />Surveying</h1>
                             <span className="sub-title animate-1">Topographical surveying helps in mapping the contours and existing features on the surface of the ground or slightly below it and serves as a base map for construction of a structure.</span>
                                 <div className="btn-box animate-3">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                    <Link href="/#about" className="theme-btn btn-style-one"><span className="btn-title">Explore</span></Link>
                                     <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /> watch video</a>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ const IntroSlider1 = () => {
                                 <h1 className="title animate-2">Laboratory Testing<br />of Rock & Soil</h1>
                                 <span className="sub-title animate-1">Laboratory testing of the soil and rock is conducted to infer the loading and bearing capacity of the soil of the site by analysing its physical, mechanical and hydraulic parameters.</span>
                                 <div className="btn-box animate-3">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Explore More</span></Link>
+                                    <Link href="/#about" className="theme-btn btn-style-one"><span className="btn-title">Explore</span></Link>
                                     <a onClick={() => setOpen(true)} className="play-btn lightbox-image"><i className="icon fa fa-play" /> watch video</a>
                                 </div>
                             </div>

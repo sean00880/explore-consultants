@@ -73,7 +73,7 @@ const ProjectSlider2 = () => {
                             <div className="image-box">
                                 <figure className="image">
                                     <Link href="/page-project-details" className="lightbox-image">
-                                        <img src={`/images/resource/${item.img}`} title='Oitech' />
+                                        <img src={`/images/resource/${item.img}`} title='Explore Consultants' />
                                     </Link>
                                 </figure>
                             </div>

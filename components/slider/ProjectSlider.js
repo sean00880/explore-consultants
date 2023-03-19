@@ -113,8 +113,8 @@ const ProjectSlider = () => {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link href="images/resource/project-1.jpg" className="lightbox-image">
-                                        <img src={`/images/resource/${item.img}`} title='Oitech' />
+                                    <Link href="#" className="lightbox-image">
+                                        <img src={`/images/resource/${item.img}`} title='Explore Consultants' />
                                     </Link>
                                 </figure>
                                 <Link href="/page-project-details" className="icon"><i className="fa fa-long-arrow-alt-right" /></Link>
@@ -122,7 +122,7 @@ const ProjectSlider = () => {
                         </div>
                     </SwiperSlide>
                 ))}
-                <Link href="/page-services" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                <Link href="/page-project-details" className="theme-btn btn-style-one"><span className="btn-title">Projects</span></Link>
             </Swiper>
             
         </>

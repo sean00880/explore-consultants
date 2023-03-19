@@ -27,8 +27,6 @@ export default function Home() {
                 <CtaOne />
                 <ProjectOne />
                 <FaqOne />
-                <BlogOne />
-                <CtaTwo />
                 <MapOne />
             </Layout>
         </>

@@ -18,8 +18,10 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="inner-container">
                         <div className="top-left">
                             <ul className="list-style-one">
-                                <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">needhelp@company.com</Link></li>
-                                <li><i className="fa fa-map-marker" /> 88 Broklyn Golden Street. New York</li>
+                                <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">info@exploreconsultants.com</Link></li>
+                                <li><i className="fa fa-map-marker" /> C-273, Ground Floor, Sector-63, Noida (UP) 201301</li>
+                                <li><i className="fa fa-phone" /> Call: <Link href="tel:01204333415">  0120-4333415</Link></li>
+                                
                             </ul>
                         </div>
                         <div className="top-right">
@@ -27,6 +29,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <li><Link href="#">Help</Link></li>
                                 <li><Link href="#">Support</Link></li>
                                 <li><Link href="#">Contact</Link></li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -42,7 +45,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
-                            <div className="logo"><Link href="/"><Image src={LogoWhite} title='Oitech' /></Link></div>
+                            <div className="logo"><Link href="/"><Image src={LogoWhite} title='Explore Consultants' /></Link></div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
@@ -55,11 +58,8 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                     </button>
                                     <Link href="#" className="ui-btn"><i className="lnr-icon-shopping-cart" /></Link>
                                 </div>
-                                <Link href="tel:+92(8800)9806" className="info-btn">
-                                    <i className="icon fa fa-phone" />
-                                    <small>Call Anytime</small><br /> + 88 ( 9800 ) 6802
-                                </Link>
-                                <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">get solution</span></Link>
+                                
+                                
                                 <div className="mobile-nav-toggler" onClick={handleOpen}><span className="icon lnr-icon-bars" /></div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="menu-backdrop" onClick={handleRemove} />
                     <nav className="menu-box">
                         <div className="upper-box">
-                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Oitech' /></Link></div>
+                            <div className="nav-logo"><Link href="/"><Image src={LogoWhite} title='Explore Consultants' /></Link></div>
                             <div className="close-btn" onClick={handleRemove}><i className="icon fa fa-times" /></div>
                         </div>
                         <MobileMenu />
@@ -78,20 +78,28 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                                 <div className="contact-info-box">
                                     <i className="icon lnr-icon-phone-handset" />
                                     <span className="title">Call Now</span>
-                                    <Link href="tel:+92880098670">+92 (8800) - 98670</Link>
+                                    <Link href="tel:01204333415">0 120 4333415</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
+                                    <i className="icon lnr-icon-map" />
+                                    <span className="title">Location</span>
+                                    C-273, Ground Floor, Sector-63, Noida (UP)
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div className="contact-info-box">
                                     <span className="icon lnr-icon-envelope1" />
                                     <span className="title">Send Email</span>
-                                    <Link href="mailto:help@company.com">help@company.com</Link>
+                                    <Link href="mailto:info@exploreconsultants.com">info@exploreconsultants.com</Link>
                                 </div>
                             </li>
                             <li>
                                 <div className="contact-info-box">
                                     <span className="icon lnr-icon-clock" />
-                                    <span className="title">Send Email</span>
+                                    <span className="title">Visit Us</span>
                                     Mon - Sat 8:00 - 6:30, Sunday - CLOSED
                                 </div>
                             </li>
@@ -120,7 +128,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                     <div className="auto-container">
                         <div className="inner-container">
                             <div className="logo">
-                                <Link href="/" title><Image src={LogoDark} title='Oitech' /></Link>
+                                <Link href="/" title><Image src={LogoDark} title='Explore Consultants' /></Link>
                             </div>
                             <div className="nav-outer">
                                 <nav className="main-menu">

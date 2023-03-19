@@ -4,7 +4,7 @@ import React from 'react';
 const ServiceOne = () => {
     return (
         <>
-            <section className="services-section">
+            <section className="services-section" id="services">
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="sub-title">Services we’re offering</span>
@@ -15,13 +15,13 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-1.jpg" title='Oitech' /></Link></figure>
-                                    <div className="icon-box"><img src="/images/resource/icon-1.png" title='Oitech' /></div>
+                                    <figure className="image"><Link href="/geotechnical-investigation"><img src="/images/resource/service-1.jpg" title='Explore Consultants' /></Link></figure>
+                                    <div className="icon-box"><img src="/images/resource/icon-1.png" title='Explore Consultants' /></div>
                                 </div>
                                 <div className="content-box">
-                                    <h5 className="title"><Link href="/page-service-details">Geotechnical Investigation</Link></h5>
+                                    <h5 className="title"><Link href="/geotechnical-investigation">Geotechnical Investigation</Link></h5>
                                     <div className="text">We provide a range of Geotechnical Investigation services to our clients.</div>
-                                    <Link href="/page-service-details" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <Link href="/geotechnical-investigation" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -29,13 +29,13 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-2.jpg" title='Oitech' /></Link></figure>
-                                    <div className="icon-box"><img src="/images/resource/icon-2.png" title='Oitech' /></div>
+                                    <figure className="image"><Link href="/topographical-surveying"><img src="/images/resource/service-2.jpg" title='Explore Consultants' /></Link></figure>
+                                    <div className="icon-box"><img src="/images/resource/icon-2.png" title='Explore Consultants' /></div>
                                 </div>
                                 <div className="content-box">
-                                    <h5 className="title"><Link href="/page-service-details">Topographical Surveying</Link></h5>
+                                    <h5 className="title"><Link href="/topographical-surveying">Topographical Surveying</Link></h5>
                                     <div className="text">We conduct all types of Topographical Surveying using Total Station and DGPS.</div>
-                                    <Link href="/page-service-details" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <Link href="/topographical-surveying" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
                         </div>
@@ -43,13 +43,13 @@ const ServiceOne = () => {
                         <div className="service-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link href="/page-service-details"><img src="/images/resource/service-3.jpg" title='Oitech' /></Link></figure>
-                                    <div className="icon-box"><img src="/images/resource/icon-3.png" title='Oitech' /></div>
+                                    <figure className="image"><Link href="/lab-test-soil-and-rock"><img src="/images/resource/service-3.jpg" title='Explore Consultants' /></Link></figure>
+                                    <div className="icon-box"><img src="/images/resource/icon-3.png" title='Explore Consultants' /></div>
                                 </div>
                                 <div className="content-box">
-                                    <h5 className="title"><Link href="/page-service-details">Laboratory Testing of Soil & Rock</Link></h5>
+                                    <h5 className="title"><Link href="/lab-test-soil-and-rock">Laboratory Testing of Soil & Rock</Link></h5>
                                     <div className="text">We conduct Geotechnical Tests on all samples in our in-house soil and rock testing lab. </div>
-                                    <Link href="/page-service-details" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
+                                    <Link href="/lab-test-soil-and-rock" className="read-more">read More <i className="fa fa-long-arrow-alt-right" /></Link>
                                 </div>
                             </div>
                         </div>

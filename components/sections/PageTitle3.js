@@ -4,7 +4,7 @@ import React from 'react';
 
 const PageTitle = (props) => {
   return (
-            <section className="page-title" style={{ backgroundImage: 'url(images/resource/lab.jpg)' }}>
+            <section className="page-title" style={{ backgroundImage: 'url(images/resource/topography.jpg)' }}>
                 <div className="auto-container">
                     <div className="title-outer">
                         <h1 className="title">{props.pageName}</h1>

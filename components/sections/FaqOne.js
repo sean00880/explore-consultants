@@ -4,7 +4,7 @@ import Accordion from '../elements/Accordion';
 const FaqOne = () => {
     return (
         <>
-            <section className="faqs-section">
+            <section className="faqs-section" id="contact">
                 <div className="auto-container">
                     <div className="row">
                         <div className="faq-column col-lg-6 col-md-12 col-sm-12 order-4">
@@ -23,7 +23,7 @@ const FaqOne = () => {
                                 <div className="contact-form wow fadeInLeft">
                                     <div className="title-box">
                                         <span className="sub-title">Contact us</span>
-                                        <h3>Write Email</h3>
+                                        <h3>Get In Touch</h3>
                                     </div>
                                     <form method="post" action="#" id="contact-form">
                                         <div className="form-group">

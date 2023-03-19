@@ -11,7 +11,7 @@ const Serviceone = ({ alternate }) => {
 					<div className="row">
 						<div className="col-xl-12">
 							<div className="project-details__top">
-								<div className="project-details__img"> <img src="/images/resource/project-details.jpg" title='Oitech' /> </div>
+								<div className="project-details__img"> <img src="/images/resource/project-details.jpg" title='Explore Consultants' /> </div>
 							</div>
 						</div>
 					</div>
@@ -45,7 +45,7 @@ const Serviceone = ({ alternate }) => {
 								<div className="project-details__content-right">
 									<div className="project-details__details-box">
 										
-										<img src="/images/resource/project-details1.jpg" title='Oitech' />
+										<img src="/images/resource/project-details1.jpg" title='Explore Consultants' />
 									</div>
 								</div>
 							</div>
@@ -57,15 +57,15 @@ const Serviceone = ({ alternate }) => {
 								<div className="row">
 							<div className="project-details__details-box" >
 										
-										<img src="/images/resource/project-details2.jpg" title='Oitech' />
+										<img src="/images/resource/project-details2.jpg" title='Explore Consultants' />
 									</div>
 									<div className="project-details__details-box" >
 										
-										<img src="/images/resource/project-details3.jpg" title='Oitech' />
+										<img src="/images/resource/project-details3.jpg" title='Explore Consultants' />
 									</div>
 									<div className="project-details__details-box" >
 										
-										<img src="/images/resource/project-details4.jpg" title='Oitech' />
+										<img src="/images/resource/project-details4.jpg" title='Explore Consultants' />
 									</div>
 									</div>
 							</div>

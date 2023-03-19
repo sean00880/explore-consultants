@@ -69,7 +69,7 @@ const Testimonial4 = () => {
                                 <div className="text">Proin a lacus arcu. Nullam id dui eu orci maximus. Cras at auctor lectus, vel pretium tellus. Class aptent sociosqu ad litora torquent per conubia nostra.</div>
                             </div>
                             <div className="info-box">
-                                <figure className="thumb"><img src="/images/resource/testi-thumb-3.jpg" title='Oitech' /></figure>
+                                <figure className="thumb"><img src="/images/resource/testi-thumb-3.jpg" title='Explore Consultants' /></figure>
                                 <h5 className="name">Jessica Brown</h5>
                                 <span className="designation">Co Founder</span>
                             </div>

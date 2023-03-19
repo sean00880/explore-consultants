@@ -1,6 +1,6 @@
-/* Oitech | IT Solutions & Technology HTML Template
+/* Explore Consultants | IT Solutions & Technology HTML Template
 
-Template Name: Oitech
+Template Name: Explore Consultants
 Version: 1.0.0
 License: copyright commercial
 
@@ -1046,7 +1046,7 @@ Scroll To Top style
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -1927,9 +1927,8 @@ Main Header
   position: relative;
 }
 .header-top .useful-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+
+  display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2030,7 +2029,7 @@ Main Header
 }
 
 .main-menu .navbar-header {
-  display: none;
+  
 }
 
 .main-menu .navbar-collapse {
@@ -2287,6 +2286,7 @@ Main Header
   padding-right: 30px;
   margin-right: 30px;
   border-right: 1px solid #e6e8ed;
+  display: none;
 }
 
 .main-header .ui-btn {
@@ -2954,7 +2954,7 @@ Section Title
   position: relative;
   top: -8px;
   font-size: var(--sec-title-subtitle-font-size);
-  color: var(--sec-title-subtitle-color);
+  color: #8b0101;
   line-height: var(--sec-title-subtitle-line-height);
   font-weight: var(--sec-title-subtitle-font-weight);
   font-family: var(--sec-title-subtitle-font-family);
@@ -3093,7 +3093,7 @@ Section Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/main-slider/shape-1.png);
+  background-image: url(../images/main-slider/shape-2.png);
   content: "";
   z-index: 8;
   pointer-events: none;
@@ -3156,14 +3156,12 @@ Section Title
           justify-content: center;
 }
 .banner-section .content-box .play-btn {
+  display: none;
   font-size: 13px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 600;
   margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -4179,10 +4177,12 @@ Section Title
 }
 .about-section .content-column .content-box {
   position: relative;
-  padding-right: 200px;
+  display: flex;
+  flex-direction: row;
 }
 .about-section .content-column .info-box {
   position: absolute;
+  display: none;
   right: 0;
   top: 0;
   padding: 30px 30px;
@@ -6574,6 +6574,9 @@ Section Title
   min-height: 570px;
   -o-object-fit: cover;
      object-fit: cover;
+  
+    height: 679px;
+    background-position: center;
 }
 .offer-section .image-column .caption-box {
   position: absolute;
@@ -6581,7 +6584,7 @@ Section Title
   bottom: 0;
   top: 0;
   width: 100%;
-  max-width: 300px;
+  max-width: 240px;
   background-color: var(--bg-theme-color2);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6598,6 +6601,7 @@ Section Title
 .offer-section .image-column .caption-box .icon-box {
   position: relative;
   margin-bottom: 20px;
+  display: none;
 }
 .offer-section .image-column .caption-box .title {
   color: var(--theme-color1);
@@ -7941,7 +7945,19 @@ Section Title
   width: 100%;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  height:300px;
 }
+
+@media only screen and (max-width:990px){
+.project-block .image-box .image img {
+  width: 100%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  height:500px;
+}
+}
+
+
 .project-block .image-box .icon {
   position: absolute;
   right: 40px;
@@ -14817,6 +14833,9 @@ Sidebar
 .main-footer .about-widget .logo {
   position: relative;
   margin-bottom: 22px;
+  width: 220px;
+  background-color: white;
+  border-radius: 3px;
 }
 .main-footer .about-widget .text {
   font-size: 16px;

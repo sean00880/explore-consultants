@@ -4,7 +4,7 @@ import React from 'react';
 const AboutOne = () => {
     return (
         <>
-            <section className="about-section pt-0">
+            <section className="about-section pt-0" id="about">
                 {/* Features Section */}
                 <div className="features-section pull-up pt-0">
                     <div className="auto-container">
@@ -55,10 +55,7 @@ const AboutOne = () => {
                                     <div className="text">We are a Geotechnical Engineering and Engineering Surveying organization that provides complete solutions to clients and have an impeccable track record of executing a variety of projects all across India.</div>
                                 </div>
                                 <div className="content-box">
-                                    <div className="info-box">
-                                        <h5 className="title">High Quality IT Solutions for Startup</h5>
-                                        <Link href="/#" className="read-more">More <i className="fa fa-long-arrow-alt-right" /></Link>
-                                    </div>
+                                    
                                     <div className="about-block">
                                         <i className="icon flaticon-business-018-startup" />
                                         <h5 className="title">Expertise</h5>
@@ -71,14 +68,14 @@ const AboutOne = () => {
                                     </div>
                                 </div>
                                 <div className="btm-box">
-                                    <Link href="/page-about" className="theme-btn btn-style-one"><span className="btn-title">Discover more</span></Link>
+                                    <Link href="/#services" scroll={true} passHref className="theme-btn btn-style-one"><span className="btn-title">Explore Services</span></Link>
                                 </div>
                             </div>
                         </div>
                         {/* Image Column */}
                         <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
                             <div className="inner-column wow fadeInLeft">
-                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-1.jpg" title='Oitech' /></figure>
+                                <figure className="image-1 overlay-anim wow fadeInUp"><img src="/images/resource/about-1.jpg" title='Explore Consultants' /></figure>
                                 
                                 <div className="experience bounce-y">
                                     
