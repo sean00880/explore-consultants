@@ -17,7 +17,7 @@ const AboutOne = () => {
                                             <i className="icon flaticon-business-002-graph" />
                                             <h5 className="title"><Link href="/page-about">Comprehensive Geotechnical Solutions</Link></h5>
                                         </div>
-                                        <div className="text">When an unknown printer took <br />a galley type book.</div>
+                                        <div className="text">Explore Consultants provides a range of services and solutions related to soil mechanics, foundation engineering, and earth materials to support various types of construction projects.</div>
                                     </div>
                                 </div>
                                 {/* Feature Block */}

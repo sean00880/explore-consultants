@@ -4,7 +4,7 @@ const OfferOne = () => {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            <section className="offer-section">
+            <section className="offer-section" id="whyus">
                 <div className="auto-container">
                     <div className="row">
                         <div className="content-column col-lg-6 col-md-12">
