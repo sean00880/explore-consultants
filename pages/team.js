@@ -4,6 +4,7 @@ import PageTitle from "../components/sections/PageTitle";
 import TeamDetails from "../components/sections/TeamDetails";
 import TeamDetails2 from "../components/sections/TeamDetails2";
 import AboutTwo from "../components/sections/AboutTwo";
+import ServiceFour from "../components/sections/ServiceFour";
 
 export default function Home() {
 
@@ -14,6 +15,7 @@ export default function Home() {
                 <AboutTwo/>
                 <TeamDetails2 />
                 <TeamDetails />
+                <ServiceFour/>
             </Layout>
         </>
     )

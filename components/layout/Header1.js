@@ -20,7 +20,7 @@ const Header1 = ({ handleOpen, handleRemove, searchToggle, handleToggle, scroll 
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@company.com">info@exploreconsultants.com</Link></li>
                                 <li><i className="fa fa-map-marker" /> C-273, Ground Floor, Sector-63, Noida (UP) 201301</li>
-                                <li><i className="fa fa-phone" /> Call: <Link href="tel:01204333415">  0120-4333415</Link></li>
+                                <li><i className="fa fa-phone" /><Link href="tel:01204333415"><strong> 0120-4333415</strong></Link></li>
                                 
                             </ul>
                         </div>

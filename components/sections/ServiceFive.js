@@ -12,15 +12,7 @@ const ServiceFive = () => {
                     </div>
                     <div className="row">
                         {/* Service Block Five */}
-                        <div className="service-block-five col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="inner-box ">
-                                <div className="icon-box">
-                                    <i className="icon flaticon-business-035-helpline" />
-                                </div>
-                                <h4 className="title"><Link href="/page-service-details">Consultancy</Link></h4>
-                                <div className="text">Taking seamless key performance indicators offline to maximise the tail</div>
-                            </div>
-                        </div>
+                        
                         {/* Service Block Five */}
                         <div className="service-block-five col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                             <div className="inner-box ">
@@ -47,7 +39,7 @@ const ServiceFive = () => {
                                 <div className="icon-box">
                                     <i className="icon flaticon-business-063-diamond" />
                                 </div>
-                                <h4 className="title"><Link href="/page-service-details">Softwares</Link></h4>
+                                <h4 className="title"><Link href="/page-service-details">Vision</Link></h4>
                                 <div className="text">Taking seamless key performance indicators offline to maximise the tail</div>
                             </div>
                         </div>
